@@ -1,0 +1,12 @@
+[submodule "dependencies/IHP__OPA2251"]
+	path = dependencies/IHP__OPA2251
+	url = git@github.com:overjamaya/IHP__OPA2251.git
+[submodule "dependencies/IHP__OSC9996"]
+	path = dependencies/IHP__OSC9996
+	url = git@github.com:Gior-gio/IHP__OSC9996.git
+[submodule "dependencies/IHP__OSC3593"]
+	path = dependencies/IHP__OSC3593
+	url = git@github.com:EduHolg/IHP__OSC3593.git
+[submodule "dependencies/IHP__QDLL6501"]
+	path = dependencies/IHP__QDLL6501
+	url = git@github.com:leonardovazquez/IHP__QDLL6501.git
