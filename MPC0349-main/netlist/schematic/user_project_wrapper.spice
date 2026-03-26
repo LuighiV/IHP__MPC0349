@@ -1,0 +1,508 @@
+** sch_path: /home/designer/designs/libs/core_chiptop/user_project_wrapper/user_project_wrapper.sch
+.subckt user_project_wrapper VDD VSS analog_io[0] analog_io[18] analog_io[1] analog_io[19] analog_io[2] analog_io[20]
++ analog_io[21] analog_io[3] analog_io[22] analog_io[4] analog_io[5] analog_io[23] analog_io[6] analog_io[24] analog_io[25] analog_io[7]
++ analog_io[26] analog_io[8] analog_io[27] analog_io[9] analog_io[10] analog_io[28] analog_io[11] analog_io[29] analog_io[12] analog_io[30]
++ analog_io[31] analog_io[13] analog_io[32] analog_io[14] analog_io[15] analog_io[33] analog_io[16] analog_io[34] analog_io[17] analog_io[35]
++ IOVDD IOVSS
+*.PININFO VSS:B VDD:B IOVDD:B IOVSS:B analog_io[35:0]:B
+x5 IOVDD VDD VSS SUB IOVSS IOVSS IOVSS sg13g2_Corner_noptap
+x6 IOVDD VSS analog_io[9] VDD SUB net1 IOVSS IOVDD sg13g2_IOPadAnalog
+x10 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadVss
+x11[7] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x11[6] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x11[5] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x11[4] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x11[3] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x11[2] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x11[1] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x11[0] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x12[7] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler1000
+x12[6] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler1000
+x12[5] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler1000
+x12[4] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler1000
+x12[3] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler1000
+x12[2] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler1000
+x12[1] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler1000
+x12[0] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler1000
+x13[7] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x13[6] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x13[5] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x13[4] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x13[3] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x13[2] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x13[1] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x13[0] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x14[7] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler200
+x14[6] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler200
+x14[5] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler200
+x14[4] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler200
+x14[3] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler200
+x14[2] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler200
+x14[1] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler200
+x14[0] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler200
+x15 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadVdd
+x16[47] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[46] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[45] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[44] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[43] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[42] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[41] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[40] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[39] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[38] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[37] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[36] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[35] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[34] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[33] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[32] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[31] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[30] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[29] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[28] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[27] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[26] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[25] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[24] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[23] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[22] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[21] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[20] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[19] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[18] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[17] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[16] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[15] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[14] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[13] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[12] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[11] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[10] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[9] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[8] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[7] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[6] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[5] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[4] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[3] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[2] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[1] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x16[0] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler4000
+x17[47] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[46] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[45] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[44] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[43] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[42] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[41] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[40] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[39] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[38] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[37] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[36] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[35] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[34] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[33] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[32] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[31] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[30] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[29] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[28] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[27] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[26] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[25] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[24] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[23] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[22] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[21] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[20] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[19] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[18] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[17] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[16] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[15] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[14] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[13] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[12] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[11] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[10] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[9] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[8] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[7] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[6] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[5] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[4] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[3] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[2] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[1] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x17[0] IOVDD IOVSS VDD IOVSS IOVSS VSS SUB sg13g2_Filler400
+x1 IOVDD VSS analog_io[10] VDD SUB net2 IOVSS IOVDD sg13g2_IOPadAnalog
+x2 IOVDD VSS analog_io[11] VDD SUB net3 IOVSS IOVDD sg13g2_IOPadAnalog
+x3 IOVDD VSS analog_io[12] VDD SUB net4 IOVSS IOVDD sg13g2_IOPadAnalog
+x4 IOVDD VSS analog_io[13] VDD SUB net5 IOVSS IOVDD sg13g2_IOPadAnalog
+x11 IOVDD VSS analog_io[14] VDD SUB net6 IOVSS IOVDD sg13g2_IOPadAnalog
+x12 IOVDD VSS analog_io[15] VDD SUB net7 IOVSS IOVDD sg13g2_IOPadAnalog
+x13 IOVDD VSS analog_io[16] VDD SUB net8 IOVSS IOVDD sg13g2_IOPadAnalog
+x14 IOVDD VSS analog_io[17] VDD SUB net9 IOVSS IOVDD sg13g2_IOPadAnalog
+x16 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadIOVdd
+x17 VSS VDD SUB IOVSS IOVDD sg13g2_IOPadIOVss
+* noconn #net1
+* noconn #net2
+* noconn #net3
+* noconn #net4
+* noconn #net5
+* noconn #net6
+* noconn #net7
+* noconn #net8
+* noconn #net9
+x7 IOVDD VDD VSS SUB IOVSS IOVSS IOVSS sg13g2_Corner_noptap
+x8 IOVDD VSS analog_io[18] VDD SUB net10 IOVSS IOVDD sg13g2_IOPadAnalog
+x9 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadVss
+x18 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadVdd
+x19 IOVDD VSS analog_io[19] VDD SUB net11 IOVSS IOVDD sg13g2_IOPadAnalog
+x20 IOVDD VSS analog_io[20] VDD SUB net12 IOVSS IOVDD sg13g2_IOPadAnalog
+x21 IOVDD VSS analog_io[21] VDD SUB net13 IOVSS IOVDD sg13g2_IOPadAnalog
+x22 IOVDD VSS analog_io[22] VDD SUB net14 IOVSS IOVDD sg13g2_IOPadAnalog
+x23 IOVDD VSS analog_io[23] VDD SUB net15 IOVSS IOVDD sg13g2_IOPadAnalog
+x24 IOVDD VSS analog_io[24] VDD SUB net16 IOVSS IOVDD sg13g2_IOPadAnalog
+x25 IOVDD VSS analog_io[25] VDD SUB net17 IOVSS IOVDD sg13g2_IOPadAnalog
+x26 IOVDD VSS analog_io[26] VDD SUB net18 IOVSS IOVDD sg13g2_IOPadAnalog
+x27 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadIOVdd
+x28 VSS VDD SUB IOVSS IOVDD sg13g2_IOPadIOVss
+* noconn #net10
+* noconn #net11
+* noconn #net12
+* noconn #net13
+* noconn #net14
+* noconn #net15
+* noconn #net16
+* noconn #net17
+* noconn #net18
+* noconn VSS
+* noconn VDD
+* noconn IOVDD
+* noconn IOVSS
+* noconn SUB
+x29 IOVDD VDD VSS SUB IOVSS IOVSS IOVSS sg13g2_Corner_noptap
+x30 IOVDD VSS analog_io[35] VDD SUB net19 IOVSS IOVDD sg13g2_IOPadAnalog
+x31 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadIOVdd
+x32 VSS VDD SUB IOVSS IOVDD sg13g2_IOPadIOVss
+x33 IOVDD VSS analog_io[34] VDD SUB net20 IOVSS IOVDD sg13g2_IOPadAnalog
+x34 IOVDD VSS analog_io[33] VDD SUB net21 IOVSS IOVDD sg13g2_IOPadAnalog
+x35 IOVDD VSS analog_io[32] VDD SUB net22 IOVSS IOVDD sg13g2_IOPadAnalog
+x36 IOVDD VSS analog_io[31] VDD SUB net23 IOVSS IOVDD sg13g2_IOPadAnalog
+x37 IOVDD VSS analog_io[30] VDD SUB net24 IOVSS IOVDD sg13g2_IOPadAnalog
+x38 IOVDD VSS analog_io[29] VDD SUB net25 IOVSS IOVDD sg13g2_IOPadAnalog
+x39 IOVDD VSS analog_io[28] VDD SUB net26 IOVSS IOVDD sg13g2_IOPadAnalog
+x40 IOVDD VSS analog_io[27] VDD SUB net27 IOVSS IOVDD sg13g2_IOPadAnalog
+x41 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadVdd
+x42 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadVss
+* noconn #net19
+* noconn #net20
+* noconn #net21
+* noconn #net22
+* noconn #net23
+* noconn #net24
+* noconn #net25
+* noconn #net26
+* noconn #net27
+* noconn VSS
+* noconn VDD
+* noconn IOVDD
+* noconn IOVSS
+* noconn SUB
+x43 IOVDD VDD VSS SUB IOVSS IOVSS IOVSS sg13g2_Corner_noptap
+x44 IOVDD VSS analog_io[8] VDD SUB net28 IOVSS IOVDD sg13g2_IOPadAnalog
+x45 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadIOVdd
+x46 VSS VDD SUB IOVSS IOVDD sg13g2_IOPadIOVss
+x47 IOVDD VSS analog_io[7] VDD SUB net29 IOVSS IOVDD sg13g2_IOPadAnalog
+x48 IOVDD VSS analog_io[6] VDD SUB net30 IOVSS IOVDD sg13g2_IOPadAnalog
+x49 IOVDD VSS analog_io[5] VDD SUB net31 IOVSS IOVDD sg13g2_IOPadAnalog
+x50 IOVDD VSS analog_io[4] VDD SUB net32 IOVSS IOVDD sg13g2_IOPadAnalog
+x51 IOVDD VSS analog_io[3] VDD SUB net33 IOVSS IOVDD sg13g2_IOPadAnalog
+x52 IOVDD VSS analog_io[2] VDD SUB net34 IOVSS IOVDD sg13g2_IOPadAnalog
+x53 IOVDD VSS analog_io[1] VDD SUB net35 IOVSS IOVDD sg13g2_IOPadAnalog
+x54 IOVDD VSS analog_io[0] VDD SUB net36 IOVSS IOVDD sg13g2_IOPadAnalog
+x55 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadVdd
+x56 VSS VDD SUB IOVSS IOVDD IOVSS sg13g2_IOPadVss
+* noconn #net28
+* noconn #net29
+* noconn #net30
+* noconn #net31
+* noconn #net32
+* noconn #net33
+* noconn #net34
+* noconn #net35
+* noconn #net36
+* noconn VSS
+* noconn VDD
+* noconn IOVDD
+* noconn IOVSS
+* noconn SUB
+R4 VSS SUB ptap1 A=52.7736p P=338.816u
+R1 IOVSS SUB ptap1 A=40674.96p P=3929.688u
+.ends
+
+* expanding   symbol:  sg13g2_Corner_noptap.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Corner_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Corner_noptap.sch
+.subckt sg13g2_Corner_noptap iovdd vdd vss sub iovss1 iovss3 iovss2
+*.PININFO vss:B iovdd:B vdd:B sub:B iovss1:B iovss2:B iovss3:B
+* noconn iovdd
+* noconn vdd
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadAnalog.sym # of pins=8
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadAnalog.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadAnalog.sch
+.subckt sg13g2_IOPadAnalog iovdd1 vss pad vdd ! padres iovss iovdd
+*.PININFO padres:B iovdd:B vss:B vdd:B !:B iovss:B pad:B iovdd1:B
+R2 vss ! ptap1 A=23.85p P=159.6u
+x1 iovdd iovss pad pad pad pad pad pad pad pad pad pad ! sg13g2_Clamp_P20N0D_noptap
+x2 iovdd ! pad pad ! sg13g2_DCPDiode_noptap
+x3 iovss pad pad pad pad pad pad pad pad pad pad ! sg13g2_Clamp_N20N0D
+x4 pad iovss pad iovdd ! sg13g2_DCNDiode
+x5 padres iovdd1 iovss pad ! sg13g2_SecondaryProtection
+* noconn vdd
+R1 iovss ! ptap1 A=4373.9448p P=1112.3u
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadVss.sym # of pins=6
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadVss.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadVss.sch
+.subckt sg13g2_IOPadVss vss vdd sub iovss iovdd iovss1
+*.PININFO iovdd:B vss:B vdd:B sub:B iovss:B iovss1:B
+R2 vss sub ptap1 A=24p P=160.6u
+x2 iovdd sub vss vss sub sg13g2_DCPDiode_noptap
+x4 vss iovss vss iovdd sub sg13g2_DCNDiode
+* noconn vdd
+R1 iovss1 sub ptap1 A=5407.1p P=703.48u
+.ends
+
+
+* expanding   symbol:  sg13g2_Filler4000.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler4000.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler4000.sch
+.subckt sg13g2_Filler4000 iovdd iovss1 vdd iovss2 iovss3 vss sub
+*.PININFO iovss1:B iovss2:B iovss3:B vss:B iovdd:B vdd:B sub:B
+R3 iovss3 sub ptap1 A=478.725p P=88.1u
+R4 vss sub ptap1 A=5.85p P=39.6u
+* noconn iovdd
+* noconn vdd
+R1 iovss1 sub ptap1 A=478.92p P=88.12u
+R2 iovss2 sub ptap1 A=469.17p P=87.12u
+.ends
+
+
+* expanding   symbol:  sg13g2_Filler1000.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler1000.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler1000.sch
+.subckt sg13g2_Filler1000 iovdd iovss1 vdd iovss2 iovss3 vss sub
+*.PININFO iovss1:B iovss2:B iovss3:B vss:B iovdd:B vdd:B sub:B
+R3 iovss3 sub ptap1 A=110.475p P=58.1u
+R4 vss sub ptap1 A=1.368p P=9.72u
+* noconn iovdd
+* noconn vdd
+R1 iovss1 sub ptap1 A=110.52p P=58.12u
+R2 iovss2 sub ptap1 A=108.27p P=57.12u
+.ends
+
+
+* expanding   symbol:  sg13g2_Filler400.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler400.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler400.sch
+.subckt sg13g2_Filler400 iovdd iovss1 vdd iovss2 iovss3 vss sub
+*.PININFO iovss1:B iovss2:B iovss3:B vss:B iovdd:B vdd:B sub:B
+R3 iovss3 sub ptap1 A=38.298p P=52.22u
+R4 vss sub ptap1 A=0.672p P=5.08u
+* noconn iovdd
+* noconn vdd
+R1 iovss1 sub ptap1 A=38.3136p P=52.24u
+R2 iovss2 sub ptap1 A=37.5336p P=51.24u
+.ends
+
+
+* expanding   symbol:  sg13g2_Filler200.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler200.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler200.sch
+.subckt sg13g2_Filler200 iovdd iovss1 vdd iovss2 iovss3 vss sub
+*.PININFO iovss1:B iovss2:B iovss3:B vss:B iovdd:B vdd:B sub:B
+R3 iovss3 sub ptap1 A=13.7536p P=50.24u
+R4 vss sub ptap1 A=0.678p P=5.12u
+R1 iovss1 sub ptap1 A=13.748p P=50.22u
+R2 iovss2 sub ptap1 A=13.4736p P=49.24u
+* noconn iovdd
+* noconn vdd
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadVdd.sym # of pins=6
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadVdd.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadVdd.sch
+.subckt sg13g2_IOPadVdd vss vdd ! iovss iovdd iovss1
+*.PININFO iovdd:B vss:B vdd:B !:B iovss1:B iovss:B
+R2 vss ! ptap1 A=24p P=160.6u
+R1 iovss1 ! ptap1 A=2051.93485p P=727.53u
+x1 iovss vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd ! net2 sg13g2_Clamp_N43N43D4R
+x2 vdd net1 ! sg13g2_RCClampResistor
+x3 vdd iovss1 net1 net2 ! sg13g2_RCClampInverter_noptap
+* noconn iovdd
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadIOVdd.sym # of pins=6
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIOVdd.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIOVdd.sch
+.subckt sg13g2_IOPadIOVdd vss vdd ! iovss iovdd iovss1
+*.PININFO iovdd:B vss:B vdd:B !:B iovss1:B iovss:B
+R2 vss ! ptap1 A=24p P=160.6u
+* noconn vdd
+R1 iovss1 ! ptap1 A=2052.0763p P=727.52u
+x1 iovss iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd
++ iovdd iovdd ! net2 sg13g2_Clamp_N43N43D4R
+x2 iovdd net1 ! sg13g2_RCClampResistor
+x3 iovdd iovss1 net1 net2 ! sg13g2_RCClampInverter_noptap
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadIOVss.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIOVss.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIOVss.sch
+.subckt sg13g2_IOPadIOVss vss vdd sub iovss iovdd
+*.PININFO iovdd:B vss:B vdd:B sub:B iovss:B
+R2 vss sub ptap1 A=24p P=160.6u
+* noconn vdd
+R1 iovss sub ptap1 A=5407.1p P=703.48u
+x2 iovdd sub iovss iovss sub sg13g2_DCPDiode_noptap
+x1 iovss iovss iovss iovdd sub sg13g2_DCNDiode
+.ends
+
+
+* expanding   symbol:  sg13g2_Clamp_P20N0D_noptap.sym # of pins=4
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_P20N0D_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_P20N0D_noptap.sch
+.subckt sg13g2_Clamp_P20N0D_noptap ! iovss pad[9] pad[8] pad[7] pad[6] pad[5] pad[4] pad[3] pad[2] pad[1] pad[0] sub
+*.PININFO iovss:B !:B pad[9:0]:B sub:B
+MM1 pad[0] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM2 pad[1] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM3 pad[2] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM4 pad[3] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM5 pad[4] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM6 pad[5] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM7 pad[6] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM8 pad[7] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM9 pad[8] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM10 pad[9] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+RR1 ! net1 $SUB=sub! $[rppd] w=0.5e-6 l=12.9e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_DCPDiode_noptap.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_DCPDiode_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_DCPDiode_noptap.sch
+.subckt sg13g2_DCPDiode_noptap cathode guard anode1 anode2 sub
+*.PININFO anode2:B cathode:B guard:B anode1:B sub:B
+DD1 anode1 cathode dpantenna l=27.78u w=1.26u
+DD2 anode2 cathode dpantenna l=27.78u w=1.26u
+.ends
+
+
+* expanding   symbol:  sg13g2_Clamp_N20N0D.sym # of pins=3
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N20N0D.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N20N0D.sch
+.subckt sg13g2_Clamp_N20N0D iovss pad[9] pad[8] pad[7] pad[6] pad[5] pad[4] pad[3] pad[2] pad[1] pad[0] !
+*.PININFO iovss:B pad[9:0]:B !:B
+R1 iovss ! ptap1 A=55.7736p P=328.08u
+MM1 pad[0] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM2 pad[1] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM3 pad[2] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM4 pad[3] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM5 pad[4] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM6 pad[5] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM7 pad[6] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM8 pad[7] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM9 pad[8] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM10 pad[9] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+RR3 net1 iovss $SUB=sub! $[rppd] w=0.5e-6 l=3.54e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_DCNDiode.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_DCNDiode.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_DCNDiode.sch
+.subckt sg13g2_DCNDiode cathode1 anode cathode2 guard sub
+*.PININFO cathode2:B guard:B anode:B cathode1:B sub:B
+R1 anode sub ptap1 A=141.2964p P=221.76u
+DD1 sub cathode1 dantenna l=27.78u w=1.26u
+* noconn guard
+DD2 sub cathode2 dantenna l=27.78u w=1.26u
+.ends
+
+
+* expanding   symbol:  sg13g2_SecondaryProtection.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_SecondaryProtection.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_SecondaryProtection.sch
+.subckt sg13g2_SecondaryProtection core iovdd iovss pad !
+*.PININFO iovss:B core:B pad:B iovdd:B !:B
+R1 iovss ! ptap1 A=9.0304p P=53.12u
+DD1 core iovdd dpantenna l=4.98u w=0.64u
+DD2 ! core dantenna l=3.1u w=0.64u
+RR3 pad core $SUB=sub! $[rppd] w=1e-6 l=2e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_Clamp_N43N43D4R.sym # of pins=4
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N43N43D4R.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N43N43D4R.sch
+.subckt sg13g2_Clamp_N43N43D4R iovss pad[21] pad[20] pad[19] pad[18] pad[17] pad[16] pad[15] pad[14] pad[13] pad[12] pad[11]
++ pad[10] pad[9] pad[8] pad[7] pad[6] pad[5] pad[4] pad[3] pad[2] pad[1] pad[0] sub gate
+*.PININFO iovss:B pad[21:0]:B sub:B gate:B
+R1 iovss sub ptap1 A=65.6472p P=386.16u
+MM1 pad[11] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM2 pad[12] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM3 pad[13] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM4 pad[14] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM5 pad[15] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM6 pad[16] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM7 pad[17] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM8 pad[18] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM9 pad[19] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM10 pad[20] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM11 pad[21] gate iovss sub sg13_hv_nmos w=17.6u l=0.6u ng=4 m=1
+DD1 sub gate dantenna l=0.48u w=0.48u
+MM12 pad[0] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM13 pad[1] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM14 pad[2] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM15 pad[3] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM16 pad[4] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM17 pad[5] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM18 pad[6] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM19 pad[7] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM20 pad[8] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM21 pad[9] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM22 pad[10] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_RCClampResistor.sym # of pins=3
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_RCClampResistor.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_RCClampResistor.sch
+.subckt sg13g2_RCClampResistor p1 p2 !
+*.PININFO p1:B p2:B !:B
+RR1 p1 p2 $SUB=sub! $[rppd] w=1e-6 l=520e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_RCClampInverter_noptap.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_RCClampInverter_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_RCClampInverter_noptap.sch
+.subckt sg13g2_RCClampInverter_noptap supply iovss in out sub
+*.PININFO supply:B iovss:B out:B in:B sub:B
+MM1 iovss in iovss sub sg13_hv_nmos w=126u l=9.5u ng=14 m=1
+MM2 out in iovss sub sg13_hv_nmos w=108u l=0.5u ng=12 m=1
+MM3 out in supply supply sg13_hv_pmos w=350u l=0.5u ng=50 m=1
+.ends
+
