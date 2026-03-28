@@ -1,0 +1,205 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 7 1060 -300 1080 -300 {}
+L 7 1060 -340 1080 -340 {}
+L 7 0 -380 20 -380 {}
+L 7 1060 -380 1080 -380 {}
+L 7 0 -420 20 -420 {}
+L 7 1060 -420 1080 -420 {}
+L 7 0 -460 20 -460 {}
+L 7 1060 -460 1080 -460 {}
+L 7 1060 -500 1080 -500 {}
+L 7 0 -500 20 -500 {}
+L 7 1060 -540 1080 -540 {}
+L 7 0 -540 20 -540 {}
+L 7 0 -580 20 -580 {}
+L 7 1060 -580 1080 -580 {}
+L 7 0 -620 20 -620 {}
+L 7 1060 -620 1080 -620 {}
+L 7 1060 -660 1080 -660 {}
+L 7 0 -660 20 -660 {}
+L 7 1060 -700 1080 -700 {}
+L 7 0 -700 20 -700 {}
+L 7 380 -1080 380 -1060 {}
+L 7 380 -20 380 0 {}
+L 7 420 -20 420 0 {}
+L 7 420 -1080 420 -1060 {}
+L 7 460 -20 460 0 {}
+L 7 460 -1080 460 -1060 {}
+L 7 500 -20 500 0 {}
+L 7 500 -1080 500 -1060 {}
+L 7 540 -1080 540 -1060 {}
+L 7 540 -20 540 0 {}
+L 7 580 -1080 580 -1060 {}
+L 7 580 -20 580 0 {}
+L 7 620 -20 620 0 {}
+L 7 620 -1080 620 -1060 {}
+L 7 660 -20 660 0 {}
+L 7 660 -1080 660 -1060 {}
+L 7 700 -20 700 0 {}
+L 7 700 -1080 700 -1060 {}
+L 7 1060 -740 1080 -740 {}
+L 7 1060 -780 1080 -780 {}
+L 7 0 -300 20 -300 {}
+L 7 0 -340 20 -340 {}
+L 7 0 -740 20 -740 {}
+L 7 0 -780 20 -780 {}
+L 7 300 -1080 300 -1060 {}
+L 7 340 -1080 340 -1060 {}
+L 7 740 -1080 740 -1060 {}
+L 7 780 -1080 780 -1060 {}
+L 7 740 -20 740 0 {}
+L 7 780 -20 780 0 {}
+L 7 300 -20 300 0 {}
+L 7 340 -20 340 0 {}
+B 4 200 -880 880 -200 {fill=false}
+B 5 1077.5 -302.5 1082.5 -297.5 {name=VDD dir=inout}
+B 5 1077.5 -342.5 1082.5 -337.5 {name=VSS dir=inout}
+B 5 -2.5 -382.5 2.5 -377.5 {name=analog_io[0] dir=inout}
+B 5 1077.5 -382.5 1082.5 -377.5 {name=analog_io[18] dir=inout}
+B 5 -2.5 -422.5 2.5 -417.5 {name=analog_io[1] dir=inout}
+B 5 1077.5 -422.5 1082.5 -417.5 {name=analog_io[19] dir=inout}
+B 5 -2.5 -462.5 2.5 -457.5 {name=analog_io[2] dir=inout}
+B 5 1077.5 -462.5 1082.5 -457.5 {name=analog_io[20] dir=inout}
+B 5 1077.5 -502.5 1082.5 -497.5 {name=analog_io[21] dir=inout}
+B 5 -2.5 -502.5 2.5 -497.5 {name=analog_io[3] dir=inout}
+B 5 1077.5 -542.5 1082.5 -537.5 {name=analog_io[22] dir=inout}
+B 5 -2.5 -542.5 2.5 -537.5 {name=analog_io[4] dir=inout}
+B 5 -2.5 -582.5 2.5 -577.5 {name=analog_io[5] dir=inout}
+B 5 1077.5 -582.5 1082.5 -577.5 {name=analog_io[23] dir=inout}
+B 5 -2.5 -622.5 2.5 -617.5 {name=analog_io[6] dir=inout}
+B 5 1077.5 -622.5 1082.5 -617.5 {name=analog_io[24] dir=inout}
+B 5 1077.5 -662.5 1082.5 -657.5 {name=analog_io[25] dir=inout}
+B 5 -2.5 -662.5 2.5 -657.5 {name=analog_io[7] dir=inout}
+B 5 1077.5 -702.5 1082.5 -697.5 {name=analog_io[26] dir=inout}
+B 5 -2.5 -702.5 2.5 -697.5 {name=analog_io[8] dir=inout}
+B 5 377.5 -1082.5 382.5 -1077.5 {name=analog_io[27] dir=inout}
+B 5 377.5 -2.5 382.5 2.5 {name=analog_io[9] dir=inout}
+B 5 417.5 -2.5 422.5 2.5 {name=analog_io[10] dir=inout}
+B 5 417.5 -1082.5 422.5 -1077.5 {name=analog_io[28] dir=inout}
+B 5 457.5 -2.5 462.5 2.5 {name=analog_io[11] dir=inout}
+B 5 457.5 -1082.5 462.5 -1077.5 {name=analog_io[29] dir=inout}
+B 5 497.5 -2.5 502.5 2.5 {name=analog_io[12] dir=inout}
+B 5 497.5 -1082.5 502.5 -1077.5 {name=analog_io[30] dir=inout}
+B 5 537.5 -1082.5 542.5 -1077.5 {name=analog_io[31] dir=inout}
+B 5 537.5 -2.5 542.5 2.5 {name=analog_io[13] dir=inout}
+B 5 577.5 -1082.5 582.5 -1077.5 {name=analog_io[32] dir=inout}
+B 5 577.5 -2.5 582.5 2.5 {name=analog_io[14] dir=inout}
+B 5 617.5 -2.5 622.5 2.5 {name=analog_io[15] dir=inout}
+B 5 617.5 -1082.5 622.5 -1077.5 {name=analog_io[33] dir=inout}
+B 5 657.5 -2.5 662.5 2.5 {name=analog_io[16] dir=inout}
+B 5 657.5 -1082.5 662.5 -1077.5 {name=analog_io[34] dir=inout}
+B 5 697.5 -2.5 702.5 2.5 {name=analog_io[17] dir=inout}
+B 5 697.5 -1082.5 702.5 -1077.5 {name=analog_io[35] dir=inout}
+B 5 1077.5 -742.5 1082.5 -737.5 {name=IOVDD dir=inout}
+B 5 1077.5 -782.5 1082.5 -777.5 {name=IOVSS dir=inout}
+B 5 -2.5 -302.5 2.5 -297.5 {name=VDD dir=inout}
+B 5 -2.5 -342.5 2.5 -337.5 {name=VSS dir=inout}
+B 5 -2.5 -742.5 2.5 -737.5 {name=IOVDD dir=inout}
+B 5 -2.5 -782.5 2.5 -777.5 {name=IOVSS dir=inout}
+B 5 297.5 -1082.5 302.5 -1077.5 {name=IOVDD dir=inout}
+B 5 337.5 -1082.5 342.5 -1077.5 {name=IOVSS dir=inout}
+B 5 737.5 -1082.5 742.5 -1077.5 {name=VDD dir=inout}
+B 5 777.5 -1082.5 782.5 -1077.5 {name=VSS dir=inout}
+B 5 737.5 -2.5 742.5 2.5 {name=IOVDD dir=inout}
+B 5 777.5 -2.5 782.5 2.5 {name=IOVSS dir=inout}
+B 5 297.5 -2.5 302.5 2.5 {name=VDD dir=inout}
+B 5 337.5 -2.5 342.5 2.5 {name=VSS dir=inout}
+P 4 6 1060 -1060 20 -1060 20 -20 1060 -20 1060 -1060 1060 -1060 {}
+T {@symname} 830.5 -966 0 0 0.3 0.3 {}
+T {@name} 935 -1092 0 0 0.2 0.2 {}
+T {VDD} 1055 -304 0 1 0.2 0.2 {}
+T {VSS} 1055 -344 0 1 0.2 0.2 {}
+T {analog_io[0]} 25 -376 2 1 0.2 0.2 {}
+T {analog_io[18]} 1055 -384 0 1 0.2 0.2 {}
+T {analog_io_padres[18]} 885 -376 2 1 0.2 0.2 {}
+T {analog_io_padres[0]} 195 -376 2 0 0.2 0.2 {}
+T {analog_io[1]} 25 -416 2 1 0.2 0.2 {}
+T {analog_io[19]} 1055 -424 0 1 0.2 0.2 {}
+T {analog_io_padres[1]} 195 -416 2 0 0.2 0.2 {}
+T {analog_io_padres[19]} 885 -416 2 1 0.2 0.2 {}
+T {analog_io[2]} 25 -456 2 1 0.2 0.2 {}
+T {analog_io_padres[20]} 885 -456 2 1 0.2 0.2 {}
+T {analog_io_padres[2]} 195 -456 2 0 0.2 0.2 {}
+T {analog_io[20]} 1055 -464 0 1 0.2 0.2 {}
+T {analog_io_padres[21]} 885 -496 2 1 0.2 0.2 {}
+T {analog_io[21]} 1055 -504 0 1 0.2 0.2 {}
+T {analog_io_padres[3]} 195 -496 2 0 0.2 0.2 {}
+T {analog_io[3]} 25 -496 2 1 0.2 0.2 {}
+T {analog_io_padres[4]} 195 -536 2 0 0.2 0.2 {}
+T {analog_io[22]} 1055 -544 0 1 0.2 0.2 {}
+T {analog_io_padres[22]} 885 -536 2 1 0.2 0.2 {}
+T {analog_io[4]} 25 -536 2 1 0.2 0.2 {}
+T {analog_io_padres[5]} 195 -576 2 0 0.2 0.2 {}
+T {analog_io[5]} 25 -576 2 1 0.2 0.2 {}
+T {analog_io_padres[23]} 885 -576 2 1 0.2 0.2 {}
+T {analog_io[23]} 1055 -584 0 1 0.2 0.2 {}
+T {analog_io_padres[24]} 885 -616 2 1 0.2 0.2 {}
+T {analog_io_padres[6]} 195 -616 2 0 0.2 0.2 {}
+T {analog_io[6]} 25 -616 2 1 0.2 0.2 {}
+T {analog_io[24]} 1055 -624 0 1 0.2 0.2 {}
+T {analog_io[25]} 1055 -664 0 1 0.2 0.2 {}
+T {analog_io[7]} 25 -656 2 1 0.2 0.2 {}
+T {analog_io_padres[25]} 885 -656 2 1 0.2 0.2 {}
+T {analog_io_padres[7]} 195 -656 2 0 0.2 0.2 {}
+T {analog_io_padres[26]} 885 -696 2 1 0.2 0.2 {}
+T {analog_io[26]} 1055 -704 0 1 0.2 0.2 {}
+T {analog_io_padres[8]} 195 -696 2 0 0.2 0.2 {}
+T {analog_io[8]} 25 -696 2 1 0.2 0.2 {}
+T {analog_io[27]} 376 -1055 3 1 0.2 0.2 {}
+T {analog_io_padres[9]} 376 -195 3 1 0.2 0.2 {}
+T {analog_io[9]} 376 -25 3 0 0.2 0.2 {}
+T {analog_io_padres[27]} 376 -885 3 0 0.2 0.2 {}
+T {analog_io_padres[28]} 416 -885 3 0 0.2 0.2 {}
+T {analog_io_padres[10]} 416 -195 3 1 0.2 0.2 {}
+T {analog_io[10]} 416 -25 3 0 0.2 0.2 {}
+T {analog_io[28]} 416 -1055 3 1 0.2 0.2 {}
+T {analog_io[11]} 456 -25 3 0 0.2 0.2 {}
+T {analog_io[29]} 456 -1055 3 1 0.2 0.2 {}
+T {analog_io_padres[11]} 456 -195 3 1 0.2 0.2 {}
+T {analog_io_padres[29]} 456 -885 3 0 0.2 0.2 {}
+T {analog_io[12]} 496 -25 3 0 0.2 0.2 {}
+T {analog_io[30]} 496 -1055 3 1 0.2 0.2 {}
+T {analog_io_padres[12]} 496 -195 3 1 0.2 0.2 {}
+T {analog_io_padres[30]} 496 -885 3 0 0.2 0.2 {}
+T {analog_io[31]} 536 -1055 3 1 0.2 0.2 {}
+T {analog_io_padres[13]} 536 -195 3 1 0.2 0.2 {}
+T {analog_io[13]} 536 -25 3 0 0.2 0.2 {}
+T {analog_io_padres[31]} 536 -885 3 0 0.2 0.2 {}
+T {analog_io[32]} 576 -1055 3 1 0.2 0.2 {}
+T {analog_io_padres[14]} 576 -195 3 1 0.2 0.2 {}
+T {analog_io[14]} 576 -25 3 0 0.2 0.2 {}
+T {analog_io_padres[32]} 576 -885 3 0 0.2 0.2 {}
+T {analog_io[15]} 616 -25 3 0 0.2 0.2 {}
+T {analog_io[33]} 616 -1055 3 1 0.2 0.2 {}
+T {analog_io_padres[15]} 616 -195 3 1 0.2 0.2 {}
+T {analog_io_padres[33]} 616 -885 3 0 0.2 0.2 {}
+T {analog_io_padres[16]} 656 -195 3 1 0.2 0.2 {}
+T {analog_io[16]} 664 -25 1 1 0.2 0.2 {}
+T {analog_io_padres[34]} 664 -885 1 1 0.2 0.2 {}
+T {analog_io[34]} 656 -1055 3 1 0.2 0.2 {}
+T {analog_io_padres[17]} 696 -195 3 1 0.2 0.2 {}
+T {analog_io[17]} 704 -25 1 1 0.2 0.2 {}
+T {analog_io_padres[35]} 704 -885 1 1 0.2 0.2 {}
+T {analog_io[35]} 696 -1055 3 1 0.2 0.2 {}
+T {IOVDD} 1055 -744 0 1 0.2 0.2 {}
+T {IOVSS} 1055 -784 0 1 0.2 0.2 {}
+T {VDD} 25 -304 0 0 0.2 0.2 {}
+T {VSS} 25 -344 0 0 0.2 0.2 {}
+T {IOVDD} 25 -744 0 0 0.2 0.2 {}
+T {IOVSS} 25 -784 0 0 0.2 0.2 {}
+T {IOVDD} 304 -1055 1 0 0.2 0.2 {}
+T {IOVSS} 344 -1055 1 0 0.2 0.2 {}
+T {VSS} 784 -1055 1 0 0.2 0.2 {}
+T {VDD} 744 -1055 1 0 0.2 0.2 {}
+T {IOVDD} 744 -25 1 1 0.2 0.2 {}
+T {IOVSS} 784 -25 1 1 0.2 0.2 {}
+T {VSS} 344 -25 1 1 0.2 0.2 {}
+T {VDD} 304 -25 1 1 0.2 0.2 {}
