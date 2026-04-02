@@ -129,12 +129,12 @@ B 5 1027.5 -1942.5 1032.5 -1937.5 {name=analog_io_padres[29] dir=inout}
 B 5 1187.5 -1942.5 1192.5 -1937.5 {name=analog_io_padres[33] dir=inout}
 B 5 1227.5 -1942.5 1232.5 -1937.5 {name=analog_io_padres[34] dir=inout}
 B 5 1107.5 -1942.5 1112.5 -1937.5 {name=ui_p2c[31] dir=inout}
-B 5 297.5 -1422.5 302.5 -1417.5 {name=ui_p2c[8] dir=inout}
+B 5 297.5 -1422.5 302.5 -1417.5 {name=uo_c2p[8] dir=inout}
 B 5 297.5 -1342.5 302.5 -1337.5 {name=analog_io_padres[6] dir=inout}
 B 5 297.5 -1102.5 302.5 -1097.5 {name=analog_io_padres[0] dir=inout}
 B 5 297.5 -1142.5 302.5 -1137.5 {name=analog_io_padres[1] dir=inout}
 B 5 297.5 -1182.5 302.5 -1177.5 {name=ui_p2c[2] dir=inout}
-B 5 297.5 -1222.5 302.5 -1217.5 {name=ui_p2c[3] dir=inout}
+B 5 297.5 -1222.5 302.5 -1217.5 {name=uo_c2p[3] dir=inout}
 B 5 297.5 -1302.5 302.5 -1297.5 {name=analog_io_padres[5] dir=inout}
 B 5 957.5 -302.5 962.5 -297.5 {name=ui_p2c[9] dir=inout}
 P 4 5 280 -1960 1960 -1960 1960 -280 280 -280 280 -1960 {}
@@ -157,7 +157,7 @@ T {ui_p2c[2]} 275 -1176 2 0 0.25 0.25 {}
 T {analog_io[20]} 2215 -1184 0 1 0.25 0.25 {}
 T {analog_io_padres[21]} 1965 -1216 2 1 0.25 0.25 {}
 T {analog_io[21]} 2215 -1224 0 1 0.25 0.25 {}
-T {ui_p2c[3]} 275 -1216 2 0 0.25 0.25 {}
+T {uo_c2p[3]} 275 -1216 2 0 0.25 0.25 {}
 T {uo_PAD[3]} 25 -1216 2 1 0.25 0.25 {}
 T {analog_io_padres[4]} 275 -1256 2 0 0.25 0.25 {}
 T {analog_io[22]} 2215 -1264 0 1 0.25 0.25 {}
@@ -177,7 +177,7 @@ T {analog_io_padres[25]} 1965 -1376 2 1 0.25 0.25 {}
 T {analog_io_padres[7]} 275 -1376 2 0 0.25 0.25 {}
 T {analog_io_padres[26]} 1965 -1416 2 1 0.25 0.25 {}
 T {analog_io[26]} 2215 -1424 0 1 0.25 0.25 {}
-T {ui_p2c[8]} 275 -1416 2 0 0.25 0.25 {}
+T {uo_c2p[8]} 275 -1416 2 0 0.25 0.25 {}
 T {uo_PAD[8]} 25 -1416 2 1 0.25 0.25 {}
 T {analog_io[27]} 946 -2215 3 1 0.25 0.25 {}
 T {ui_p2c[9]} 956 -275 3 1 0.25 0.25 {}

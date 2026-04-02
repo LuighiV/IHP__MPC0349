@@ -60,17 +60,26 @@ N 300 -1140 360 -1140 {lab=analog_io_padres[1]}
 N 410 -930 500 -930 {lab=analog_io_padres[0]}
 N 410 -950 500 -950 {lab=analog_io_padres[1]}
 N 410 -910 500 -910 {lab=ui_p2c[2]}
-N 800 -930 830 -930 {lab=ui_p2c[3]}
+N 800 -930 830 -930 {lab=uo_c2p[3]}
 N 300 -1180 340 -1180 {lab=ui_p2c[2]}
-N 300 -1220 340 -1220 {lab=ui_p2c[3]}
+N 300 -1220 340 -1220 {lab=uo_c2p[3]}
 N 300 -1340 350 -1340 {lab=analog_io_padres[6]}
 N 300 -1300 350 -1300 {lab=analog_io_padres[5]}
 N 570 -1290 640 -1290 {lab=ui_p2c[9]}
 N 570 -1260 640 -1260 {lab=analog_io_padres[5]}
 N 570 -1230 640 -1230 {lab=analog_io_padres[6]}
-N 300 -1420 340 -1420 {lab=ui_p2c[8]}
-N 870 -1250 950 -1250 {lab=ui_p2c[8]}
+N 300 -1420 340 -1420 {lab=uo_c2p[8]}
+N 870 -1250 950 -1250 {lab=uo_c2p[8]}
 N 960 -360 960 -300 {lab=ui_p2c[9]}
+N -130 -1100 0 -1100 {lab=analog_io[0]}
+N -130 -1140 0 -1140 {lab=analog_io[1]}
+N -130 -1180 0 -1180 {lab=ui_PAD[2]}
+N -130 -1220 0 -1220 {lab=ui_PAD[3]}
+N -130 -1300 0 -1300 {lab=analog_io[5]}
+N -130 -1340 0 -1340 {lab=analog_io[6]}
+N -130 -1420 0 -1420 {lab=uo_PAD[8]}
+N -130 -1500 0 -1500 {lab=IOVSS1}
+N -130 -1460 0 -1460 {lab=IOVDD1}
 C {IHP__MPC0349/MPC0349-main/schematic/xschem/user_project_wrapper.sym} 0 0 0 0 {name=x1}
 C {IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/555.sym} 790 -1300 0 0 {name=x2}
 C {IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/HPA.sym} 1720 -1270 0 0 {name=x3}
@@ -111,21 +120,30 @@ C {lab_wire.sym} -80 -1060 2 0 {name=p31 sig_type=std_logic lab=VSS1}
 C {lab_wire.sym} 830 -950 0 1 {name=p32 sig_type=std_logic lab=VDD1}
 C {lab_wire.sym} 730 -1390 0 1 {name=p33 sig_type=std_logic lab=VDD1}
 C {lab_wire.sym} 750 -1170 2 0 {name=p34 sig_type=std_logic lab=VSS1}
-C {lab_wire.sym} 830 -910 2 0 {name=p35 sig_type=std_logic lab=VSS1}
+C {lab_wire.sym} 830 -910 0 1 {name=p35 sig_type=std_logic lab=VSS1}
 C {lab_wire.sym} 360 -1140 0 1 {name=p36 sig_type=std_logic lab=analog_io_padres[1]	}
 C {lab_wire.sym} 360 -1100 0 1 {name=p37 sig_type=std_logic lab=analog_io_padres[0]	}
 C {lab_wire.sym} 790 -1470 0 1 {name=p38 sig_type=std_logic lab=analog_io_padres[0]	}
 C {lab_wire.sym} 490 -930 0 0 {name=p39 sig_type=std_logic lab=analog_io_padres[0]	}
 C {lab_wire.sym} 490 -950 0 0 {name=p40 sig_type=std_logic lab=analog_io_padres[1]	}
-C {lab_wire.sym} 310 -1220 0 1 {name=p41 sig_type=std_logic lab=ui_p2c[3]	}
+C {lab_wire.sym} 310 -1220 0 1 {name=p41 sig_type=std_logic lab=uo_c2p[3]	}
 C {lab_wire.sym} 310 -1180 0 1 {name=p42 sig_type=std_logic lab=ui_p2c[2]	}
 C {lab_wire.sym} 480 -910 0 0 {name=p43 sig_type=std_logic lab=ui_p2c[2]	}
-C {lab_wire.sym} 830 -930 0 1 {name=p44 sig_type=std_logic lab=ui_p2c[3]	}
+C {lab_wire.sym} 830 -930 0 1 {name=p44 sig_type=std_logic lab=uo_c2p[3]	}
 C {lab_wire.sym} 310 -1340 0 1 {name=p45 sig_type=std_logic lab=analog_io_padres[6]	}
 C {lab_wire.sym} 310 -1300 0 1 {name=p46 sig_type=std_logic lab=analog_io_padres[5]	}
 C {lab_wire.sym} 630 -1260 0 0 {name=p47 sig_type=std_logic lab=analog_io_padres[5]	}
 C {lab_wire.sym} 630 -1230 0 0 {name=p48 sig_type=std_logic lab=analog_io_padres[6]	}
 C {lab_wire.sym} 620 -1290 0 0 {name=p49 sig_type=std_logic lab=ui_p2c[9]	}
-C {lab_wire.sym} 310 -1420 0 1 {name=p50 sig_type=std_logic lab=ui_p2c[8]	}
-C {lab_wire.sym} 880 -1250 0 1 {name=p51 sig_type=std_logic lab=ui_p2c[8]	}
+C {lab_wire.sym} 310 -1420 0 1 {name=p50 sig_type=std_logic lab=uo_c2p[8]	}
+C {lab_wire.sym} 880 -1250 0 1 {name=p51 sig_type=std_logic lab=uo_c2p[8]	}
 C {lab_wire.sym} 960 -360 0 0 {name=p52 sig_type=std_logic lab=ui_p2c[9]	}
+C {lab_wire.sym} -130 -1100 2 0 {name=p53 sig_type=std_logic lab=analog_io[0]	}
+C {lab_wire.sym} -130 -1140 2 0 {name=p54 sig_type=std_logic lab=analog_io[1]	}
+C {lab_wire.sym} -130 -1180 2 0 {name=p55 sig_type=std_logic lab=ui_PAD[2]	}
+C {lab_wire.sym} -130 -1220 2 0 {name=p56 sig_type=std_logic lab=ui_PAD[3]	}
+C {lab_wire.sym} -130 -1300 2 0 {name=p57 sig_type=std_logic lab=analog_io[5]	}
+C {lab_wire.sym} -130 -1340 2 0 {name=p58 sig_type=std_logic lab=analog_io[6]	}
+C {lab_wire.sym} -130 -1420 2 0 {name=p59 sig_type=std_logic lab=uo_PAD[8]	}
+C {lab_wire.sym} -130 -1500 2 0 {name=p60 sig_type=std_logic lab=IOVSS1	}
+C {lab_wire.sym} -130 -1460 2 0 {name=p61 sig_type=std_logic lab=IOVDD1}

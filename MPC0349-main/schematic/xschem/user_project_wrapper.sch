@@ -1354,15 +1354,17 @@ C {lab_wire.sym} 1420 -2340 3 0 {name=p73 sig_type=std_logic lab=ui_p2c[31]	}
 C {lab_wire.sym} 1740 -2340 3 0 {name=p74 sig_type=std_logic lab=analog_io_padres[33]	}
 C {lab_wire.sym} 1900 -2340 3 0 {name=p75 sig_type=std_logic lab=analog_io_padres[34]	}
 C {lab_wire.sym} 1420 -2340 3 0 {name=p76 sig_type=std_logic lab=ui_p2c[31]	}
-C {lab_wire.sym} 480 -1940 0 1 {name=p77 sig_type=std_logic lab=ui_p2c[8]	}
-C {iopin.sym} -420 10 2 0 {name=p78 lab=ui_p2c[8:9]}
+C {lab_wire.sym} 480 -1940 0 1 {name=p77 sig_type=std_logic lab=uo_c2p[8]	}
+C {iopin.sym} -420 10 2 0 {name=p78 lab=ui_p2c[9]}
 C {lab_wire.sym} 480 -1620 0 1 {name=p79 sig_type=std_logic lab=analog_io_padres[6]	}
 C {lab_wire.sym} 480 -1460 0 1 {name=p80 sig_type=std_logic lab=analog_io_padres[5]	}
-C {lab_wire.sym} 480 -1140 0 1 {name=p81 sig_type=std_logic lab=ui_p2c[3]	}
+C {lab_wire.sym} 480 -1140 0 1 {name=p81 sig_type=std_logic lab=uo_c2p[3]	}
 C {lab_wire.sym} 480 -980 0 1 {name=p82 sig_type=std_logic lab=ui_p2c[2]	}
 C {lab_wire.sym} 480 -820 0 1 {name=p83 sig_type=std_logic lab=analog_io_padres[1]	}
 C {lab_wire.sym} 480 -660 0 1 {name=p84 sig_type=std_logic lab=analog_io_padres[0]	}
 C {lab_wire.sym} 620 -360 1 0 {name=p85 sig_type=std_logic lab=ui_p2c[9]	}
-C {iopin.sym} -420 40 2 0 {name=p86 lab=ui_p2c[2:3]}
+C {iopin.sym} -420 40 2 0 {name=p86 lab=ui_p2c[2]}
 C {iopin.sym} -420 80 2 0 {name=p87 lab=analog_io_padres[5:6]}
 C {iopin.sym} -420 110 2 0 {name=p88 lab=analog_io_padres[0:1]}
+C {iopin.sym} -420 140 2 0 {name=p89 lab=uo_c2p[8]}
+C {iopin.sym} -420 170 2 0 {name=p90 lab=uo_c2p[3]}
