@@ -1583,13 +1583,13 @@ N 1360 1160 1360 1280 {lab=VSS4}
 C {sg13g2_Corner_noptap.sym} 290 -160 0 0 {name=x5}
 C {sg13g2_IOPadIn.sym} 580 -160 0 0 {name=x6}
 C {sg13g2_IOPadVss.sym} 700 -160 0 0 {name=x10}
-C {sg13g2_Filler4000.sym} 400 340 0 0 {name=x11[0]}
+C {sg13g2_Filler4000.sym} 400 340 0 0 {name=x11[1:0]}
 C {sg13g2_Filler1000.sym} 520 340 0 0 {name=x12[1:0]}
 C {sg13g2_Filler400.sym} 640 340 0 0 {name=x13[1:0]}
 C {sg13g2_Filler200.sym} 760 340 0 0 {name=x14[1:0]}
 C {sg13g2_IOPadVdd.sym} 830 -160 0 0 {name=x15}
-C {sg13g2_Filler4000.sym} 980 340 0 0 {name=x16[13:0]}
-C {sg13g2_Filler400.sym} 1100 340 0 0 {name=x17[15:0]}
+C {sg13g2_Filler4000.sym} 980 340 0 0 {name=x16[11:0]}
+C {sg13g2_Filler400.sym} 1100 340 0 0 {name=x17[11:0]}
 C {sg13g2_IOPadAnalog.sym} 1000 -160 0 0 {name=x1}
 C {sg13g2_IOPadAnalog.sym} 1160 -160 0 0 {name=x2}
 C {sg13g2_IOPadAnalog.sym} 1320 -160 0 0 {name=x3}
@@ -1715,16 +1715,16 @@ C {noconn.sym} 200 -2680 1 0 {name=l51}
 C {sg13g2_pr/ptap1.sym} 1360 350 0 0 {name=R4
 model=ptap1
 spiceprefix=X
-w=7.27e-6
-l=7.27e-6
-lvs_format="tcleval(@name @pinlist @model A=52.7736p P=338.816u )"
+w=3.632e-6
+l=3.632e-6
+lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.705u )"
 }
 C {sg13g2_pr/ptap1.sym} 1260 350 0 0 {name=R1
 model=ptap1
 spiceprefix=X
-w=201.69e-6
-l=201.69e-6
-lvs_format="tcleval(@name @pinlist @model A=40674.96p P=3929.688u )"
+w=100.84e-6
+l=100.84e-6
+lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.42u )"
 }
 C {iopin.sym} 70 40 2 0 {name=p48 lab=analog_io[30:10]}
 C {iopin.sym} 70 70 2 0 {name=p49 lab=analog_io[7:4]}
@@ -1769,11 +1769,11 @@ C {iopin.sym} -420 110 2 0 {name=p88 lab=analog_io_padres[0:1]}
 C {iopin.sym} -420 140 2 0 {name=p89 lab=uo_c2p[8]}
 C {iopin.sym} -420 170 2 0 {name=p90 lab=uo_c2p[3]}
 C {sg13g2_Filler4000.sym} 400 660 0 0 {name=x1[0]}
-C {sg13g2_Filler1000.sym} 520 660 0 0 {name=x2[1:0]}
+C {sg13g2_Filler1000.sym} 520 660 0 0 {name=x2[0]}
 C {sg13g2_Filler400.sym} 640 660 0 0 {name=x3[1:0]}
-C {sg13g2_Filler200.sym} 760 660 0 0 {name=x4[1:0]}
-C {sg13g2_Filler4000.sym} 980 660 0 0 {name=x5[11:0]}
-C {sg13g2_Filler400.sym} 1100 660 0 0 {name=x6[15:0]}
+C {sg13g2_Filler200.sym} 760 660 0 0 {name=x4[0]}
+C {sg13g2_Filler4000.sym} 980 660 0 0 {name=x5[10:0]}
+C {sg13g2_Filler400.sym} 1100 660 0 0 {name=x6[10:0]}
 C {lab_pin.sym} 160 520 0 0 {name=p91 sig_type=std_logic lab=VSS2}
 C {lab_pin.sym} 160 540 0 0 {name=p92 sig_type=std_logic lab=VDD2}
 C {lab_pin.sym} 160 560 0 0 {name=p93 sig_type=std_logic lab=IOVDD2}
@@ -1782,23 +1782,23 @@ C {lab_pin.sym} 160 740 0 0 {name=p95 sig_type=std_logic lab=SUB}
 C {sg13g2_pr/ptap1.sym} 1360 670 0 0 {name=R2
 model=ptap1
 spiceprefix=X
-w=7.27e-6
-l=7.27e-6
-lvs_format="tcleval(@name @pinlist @model A=52.7736p P=338.816u )"
+w=3.632e-6
+l=3.632e-6
+lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.705u )"
 }
 C {sg13g2_pr/ptap1.sym} 1260 670 0 0 {name=R3
 model=ptap1
 spiceprefix=X
-w=201.69e-6
-l=201.69e-6
-lvs_format="tcleval(@name @pinlist @model A=40674.96p P=3929.688u )"
+w=100.84e-6
+l=100.84e-6
+lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.42u )"
 }
 C {sg13g2_Filler4000.sym} 400 980 0 0 {name=x7[0]}
-C {sg13g2_Filler1000.sym} 520 980 0 0 {name=x8[1:0]}
-C {sg13g2_Filler400.sym} 640 980 0 0 {name=x9[1:0]}
-C {sg13g2_Filler200.sym} 760 980 0 0 {name=x10[1:0]}
-C {sg13g2_Filler4000.sym} 980 980 0 0 {name=x15[12:0]}
-C {sg13g2_Filler400.sym} 1100 980 0 0 {name=x18[15:0]}
+C {sg13g2_Filler1000.sym} 520 980 0 0 {name=x8[2:0]}
+C {sg13g2_Filler400.sym} 640 980 0 0 {name=x9[2:0]}
+C {sg13g2_Filler200.sym} 760 980 0 0 {name=x10[2:0]}
+C {sg13g2_Filler4000.sym} 980 980 0 0 {name=x15[11:0]}
+C {sg13g2_Filler400.sym} 1100 980 0 0 {name=x18[11:0]}
 C {lab_pin.sym} 160 840 0 0 {name=p96 sig_type=std_logic lab=VSS3}
 C {lab_pin.sym} 160 860 0 0 {name=p97 sig_type=std_logic lab=VDD3}
 C {lab_pin.sym} 160 880 0 0 {name=p98 sig_type=std_logic lab=IOVDD3}
@@ -1807,23 +1807,23 @@ C {lab_pin.sym} 160 1060 0 0 {name=p100 sig_type=std_logic lab=SUB}
 C {sg13g2_pr/ptap1.sym} 1360 990 0 0 {name=R5
 model=ptap1
 spiceprefix=X
-w=7.27e-6
-l=7.27e-6
-lvs_format="tcleval(@name @pinlist @model A=52.7736p P=338.816u )"
+w=3.632e-6
+l=3.632e-6
+lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.705u )"
 }
 C {sg13g2_pr/ptap1.sym} 1260 990 0 0 {name=R6
 model=ptap1
 spiceprefix=X
-w=201.69e-6
-l=201.69e-6
-lvs_format="tcleval(@name @pinlist @model A=40674.96p P=3929.688u )"
+w=100.84e-6
+l=100.84e-6
+lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.42u )"
 }
 C {sg13g2_Filler4000.sym} 400 1300 0 0 {name=x19[0]}
 C {sg13g2_Filler1000.sym} 520 1300 0 0 {name=x20[1:0]}
 C {sg13g2_Filler400.sym} 640 1300 0 0 {name=x21[1:0]}
 C {sg13g2_Filler200.sym} 760 1300 0 0 {name=x22[1:0]}
-C {sg13g2_Filler4000.sym} 980 1300 0 0 {name=x23[12:0]}
-C {sg13g2_Filler400.sym} 1100 1300 0 0 {name=x24[15:0]}
+C {sg13g2_Filler4000.sym} 980 1300 0 0 {name=x23[11:0]}
+C {sg13g2_Filler400.sym} 1100 1300 0 0 {name=x24[11:0]}
 C {lab_pin.sym} 160 1160 0 0 {name=p101 sig_type=std_logic lab=VSS4}
 C {lab_pin.sym} 160 1180 0 0 {name=p102 sig_type=std_logic lab=VDD4}
 C {lab_pin.sym} 160 1200 0 0 {name=p103 sig_type=std_logic lab=IOVDD4}
@@ -1832,16 +1832,16 @@ C {lab_pin.sym} 160 1380 0 0 {name=p105 sig_type=std_logic lab=SUB}
 C {sg13g2_pr/ptap1.sym} 1360 1310 0 0 {name=R7
 model=ptap1
 spiceprefix=X
-w=7.27e-6
-l=7.27e-6
-lvs_format="tcleval(@name @pinlist @model A=52.7736p P=338.816u )"
+w=3.632e-6
+l=3.632e-6
+lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.705u )"
 }
 C {sg13g2_pr/ptap1.sym} 1260 1310 0 0 {name=R8
 model=ptap1
 spiceprefix=X
-w=201.69e-6
-l=201.69e-6
-lvs_format="tcleval(@name @pinlist @model A=40674.96p P=3929.688u )"
+w=100.84e-6
+l=100.84e-6
+lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.42u )"
 }
 C {lab_wire.sym} 2460 -1880 0 0 {name=p73 sig_type=std_logic lab=analog_io_padres[25]	}
 C {lab_wire.sym} 2460 -1400 0 0 {name=p106 sig_type=std_logic lab=analog_io_padres[22]	}
