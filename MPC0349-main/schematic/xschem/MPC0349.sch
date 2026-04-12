@@ -1,9 +1,8 @@
-v {xschem version=3.4.8RC file_version=1.3}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
-F {}
 E {}
 N 1550 -1860 1610 -1860 {lab=#net1}
 N 1030 -2370 1030 -2240 {lab=analog_io[29]}
@@ -83,8 +82,8 @@ N -130 -1500 0 -1500 {lab=IOVSS1}
 N -130 -1460 0 -1460 {lab=IOVDD1}
 N 1420 -1240 1420 -1190 {lab=VDD3}
 N 1420 -1030 1420 -980 {lab=VSS3}
-N 2240 -1020 2320 -1020 {lab=VDD4}
-N 2240 -1060 2320 -1060 {lab=VSS4}
+N 2240 -1020 2320 -1020 {lab=VDD3}
+N 2240 -1060 2320 -1060 {lab=VSS3}
 N 1520 -1130 1620 -1130 {lab=analog_io[24_23]}
 N 1510 -1090 1610 -1090 {lab=analog_io[20_21]}
 N 2240 -1180 2280 -1180 {lab=analog_io[20_21]}
@@ -103,8 +102,8 @@ N 1760 -1380 1940 -1380 {lab=analog_io_padres[25]}
 N 1770 -1140 1940 -1140 {lab=analog_io_padres[19]}
 N 1150 -1070 1320 -1070 {lab=analog_io_padres[25]}
 N 1150 -1150 1320 -1150 {lab=analog_io_padres[19]}
-N 2240 -1500 2270 -1500 {lab=IOVSS4}
-N 2240 -1460 2270 -1460 {lab=IOVDD4}
+N 2240 -1500 2270 -1500 {lab=IOVSS3}
+N 2240 -1460 2270 -1460 {lab=IOVDD3}
 N 2240 -1420 2270 -1420 {lab=#net2}
 N 2240 -1100 2270 -1100 {lab=#net3}
 N 1260 -590 1340 -590 {lab=#net4}
@@ -117,6 +116,9 @@ N 880 -510 960 -510 {lab=#net10}
 N 1030 -450 1030 -400 {lab=#net11}
 N 1110 -450 1110 -400 {lab=#net12}
 N 1180 -450 1180 -400 {lab=#net13}
+N 2240 -1380 2270 -1380 {lab=analog_io[25]}
+N 2240 -1260 2270 -1260 {lab=analog_io[22]}
+N 2240 -1140 2270 -1140 {lab=analog_io[25]}
 C {user_project_wrapper.sym} 0 0 0 0 {name=x1}
 C {IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/555.sym} 790 -1300 0 0 {name=x2}
 C {IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/HPA.sym} 1400 -1110 0 0 {name=x3}
@@ -198,6 +200,9 @@ C {lab_wire.sym} 1770 -1140 2 0 {name=p72 sig_type=std_logic lab=analog_io_padre
 C {lab_wire.sym} 1150 -1070 2 0 {name=p73 sig_type=std_logic lab=analog_io_padres[25]	}
 C {lab_wire.sym} 1150 -1150 2 0 {name=p74 sig_type=std_logic lab=analog_io_padres[19]}
 C {noconn.sym} 2270 -1420 2 0 {name=l1}
-C {noconn.sym} 2270 -1460 2 0 {name=l2}
-C {noconn.sym} 2270 -1500 2 0 {name=l3}
 C {noconn.sym} 2270 -1100 2 0 {name=l4}
+C {lab_wire.sym} 2270 -1500 0 1 {name=p75 sig_type=std_logic lab=IOVSS3}
+C {lab_wire.sym} 2270 -1460 0 1 {name=p76 sig_type=std_logic lab=IOVDD3}
+C {lab_wire.sym} 2270 -1380 2 0 {name=p77 sig_type=std_logic lab=analog_io[25]	}
+C {lab_wire.sym} 2270 -1260 2 0 {name=p78 sig_type=std_logic lab=analog_io[22]	}
+C {lab_wire.sym} 2270 -1140 2 0 {name=p79 sig_type=std_logic lab=analog_io[19]	}
