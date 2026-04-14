@@ -1,6 +1,9 @@
 v {xschem version=3.4.6 file_version=1.2}
 G {}
-K {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
 V {}
 S {}
 E {}
@@ -72,6 +75,10 @@ L 7 960 -300 960 -280 {}
 L 7 1940 -1140 1960 -1140 {}
 L 7 1940 -1260 1960 -1260 {}
 L 7 1940 -1380 1960 -1380 {}
+L 7 1000 -300 1000 -280 {}
+L 7 1040 -300 1040 -280 {}
+L 7 1080 -300 1080 -280 {}
+L 7 1240 -300 1240 -280 {}
 B 5 2237.5 -1022.5 2242.5 -1017.5 {name=VDD3 dir=inout}
 B 5 2237.5 -1062.5 2242.5 -1057.5 {name=VSS3 dir=inout}
 B 5 -2.5 -1102.5 2.5 -1097.5 {name=analog_io[0] dir=inout}
@@ -140,6 +147,10 @@ B 5 957.5 -302.5 962.5 -297.5 {name=ui_p2c[9] dir=inout}
 B 5 1937.5 -1142.5 1942.5 -1137.5 {name=analog_io_padres[19] dir=inout}
 B 5 1937.5 -1262.5 1942.5 -1257.5 {name=analog_io_padres[22] dir=inout}
 B 5 1937.5 -1382.5 1942.5 -1377.5 {name=analog_io_padres[25] dir=inout}
+B 5 997.5 -302.5 1002.5 -297.5 {name=analog_io_padres[10] dir=inout}
+B 5 1037.5 -302.5 1042.5 -297.5 {name=analog_io_padres[11] dir=inout}
+B 5 1077.5 -302.5 1082.5 -297.5 {name=analog_io_padres[12] dir=inout}
+B 5 1237.5 -302.5 1242.5 -297.5 {name=analog_io_padres[16] dir=inout}
 P 4 5 280 -1960 1960 -1960 1960 -280 280 -280 280 -1960 {}
 P 4 5 20 -20 2220 -20 2220 -2220 20 -2220 20 -20 {}
 T {@symname} 1400.5 -2126 0 0 0.5 0.5 {}

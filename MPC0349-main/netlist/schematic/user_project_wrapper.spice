@@ -1,15 +1,20 @@
 ** sch_path: /home/designer/designs/libs/IHP__MPC0349/MPC0349-main/schematic/xschem/user_project_wrapper.sch
-.subckt user_project_wrapper VSS1 VDD1 IOVDD1 IOVSS1 analog_io[35] analog_io[34] analog_io[33] analog_io[32] analog_io[30]
-+ analog_io[29] analog_io[28] analog_io[27] analog_io[26] analog_io[25] analog_io[24] analog_io[23] analog_io[22] analog_io[21] analog_io[20]
-+ analog_io[19] analog_io[18] analog_io[17] analog_io[16] analog_io[15] analog_io[14] analog_io[13] analog_io[12] analog_io[11] analog_io[10]
-+ analog_io[7] analog_io[6] analog_io[5] analog_io[4] analog_io[1] analog_io[0] ui_PAD[31] ui_PAD[9] uo_PAD[8] uo_PAD[3] ui_PAD[2] VSS2 VDD2
-+ IOVDD2 IOVSS2 VSS3 VDD3 IOVDD3 IOVSS3 VSS4 VDD4 IOVDD4 IOVSS4 analog_io_padres[29] analog_io_padres[28] analog_io_padres[34]
-+ analog_io_padres[33] ui_p2c[31] ui_p2c[9] ui_p2c[2] analog_io_padres[5] analog_io_padres[6] analog_io_padres[0] analog_io_padres[1] uo_c2p[8]
-+ uo_c2p[3] analog_io_padres[19] analog_io_padres[22] analog_io_padres[25]
-*.PININFO VSS1:B VDD1:B IOVDD1:B IOVSS1:B analog_io[35:32]:B analog_io[30:10]:B analog_io[7:4]:B analog_io[1:0]:B ui_PAD[31]:B
-*+ ui_PAD[9]:B uo_PAD[8]:B uo_PAD[3]:B ui_PAD[2]:B VSS2:B VDD2:B IOVDD2:B IOVSS2:B VSS3:B VDD3:B IOVDD3:B IOVSS3:B VSS4:B VDD4:B IOVDD4:B
-*+ IOVSS4:B analog_io_padres[29:28]:B analog_io_padres[34:33]:B ui_p2c[31]:B ui_p2c[9]:B ui_p2c[2]:B analog_io_padres[5:6]:B
-*+ analog_io_padres[0:1]:B uo_c2p[8]:B uo_c2p[3]:B analog_io_padres[19]:B analog_io_padres[22]:B analog_io_padres[25]:B
+.subckt user_project_wrapper VDD3 VSS3 analog_io[0] analog_io[18] analog_io[1] analog_io[19] ui_PAD[2] analog_io[20] analog_io[21]
++ uo_PAD[3] analog_io[22] analog_io[4] analog_io[5] analog_io[23] analog_io[6] analog_io[24] analog_io[25] analog_io[7] analog_io[26]
++ uo_PAD[8] analog_io[27] ui_PAD[9] analog_io[10] analog_io[28] analog_io[11] analog_io[29] analog_io[12] analog_io[30] ui_PAD[31]
++ analog_io[13] analog_io[32] analog_io[14] analog_io[15] analog_io[33] analog_io[16] analog_io[34] analog_io[17] analog_io[35] IOVDD3 IOVSS3
++ VDD1 VSS1 IOVDD1 IOVSS1 IOVDD4 IOVSS4 VDD4 VSS4 IOVDD2 IOVSS2 VDD2 VSS2 analog_io_padres[28] analog_io_padres[29] analog_io_padres[33]
++ analog_io_padres[34] ui_p2c[31] uo_c2p[8] analog_io_padres[6] analog_io_padres[0] analog_io_padres[1] ui_p2c[2] uo_c2p[3] analog_io_padres[5]
++ ui_p2c[9] analog_io_padres[19] analog_io_padres[22] analog_io_padres[25] analog_io_padres[10] analog_io_padres[11] analog_io_padres[12]
++ analog_io_padres[16]
+*.PININFO VSS1:B VDD1:B IOVDD1:B IOVSS1:B analog_io[32]:B analog_io[10]:B analog_io[4]:B analog_io[0]:B ui_PAD[31]:B ui_PAD[9]:B
+*+ uo_PAD[8]:B uo_PAD[3]:B ui_PAD[2]:B VSS2:B VDD2:B IOVDD2:B IOVSS2:B VSS3:B VDD3:B IOVDD3:B IOVSS3:B VSS4:B VDD4:B IOVDD4:B IOVSS4:B
+*+ analog_io_padres[28]:B analog_io_padres[33]:B ui_p2c[31]:B ui_p2c[9]:B ui_p2c[2]:B analog_io_padres[5]:B analog_io_padres[0]:B uo_c2p[8]:B uo_c2p[3]:B
+*+ analog_io_padres[19]:B analog_io_padres[22]:B analog_io_padres[25]:B analog_io_padres[1]:B analog_io_padres[6]:B analog_io_padres[29]:B
+*+ analog_io_padres[34]:B analog_io[1]:B analog_io[5]:B analog_io[6]:B analog_io[7]:B analog_io[11]:B analog_io[12]:B analog_io[13]:B analog_io[14]:B
+*+ analog_io[15]:B analog_io[16]:B analog_io[17]:B analog_io[18]:B analog_io[19]:B analog_io[30]:B analog_io[20]:B analog_io[21]:B analog_io[22]:B
+*+ analog_io[23]:B analog_io[24]:B analog_io[25]:B analog_io[26]:B analog_io[27]:B analog_io[28]:B analog_io[29]:B analog_io[33]:B analog_io[34]:B
+*+ analog_io[35]:B analog_io_padres[10]:B analog_io_padres[11]:B analog_io_padres[12]:B analog_io_padres[16]:B
 x5 IOVDD1 VDD1 VSS1 SUB IOVSS1 IOVSS1 IOVSS1 sg13g2_Corner_noptap
 x6 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 ui_PAD[9] ui_p2c[9] sg13g2_IOPadIn
 x10 VSS2 VDD2 SUB IOVSS2 IOVDD2 IOVSS2 sg13g2_IOPadVss
@@ -46,80 +51,76 @@ x17[3] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
 x17[2] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
 x17[1] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
 x17[0] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
-x1 IOVDD2 VSS2 analog_io[10] VDD2 SUB net1 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
-x2 IOVDD2 VSS2 analog_io[11] VDD2 SUB net2 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
-x3 IOVDD2 VSS2 analog_io[12] VDD2 SUB net3 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
-x4 IOVDD2 VSS2 analog_io[13] VDD2 SUB net4 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
-x11 IOVDD2 VSS2 analog_io[14] VDD2 SUB net5 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
-x12 IOVDD2 VSS2 analog_io[15] VDD2 SUB net6 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
-x13 IOVDD2 VSS2 analog_io[16] VDD2 SUB net7 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
-x14 IOVDD2 VSS2 analog_io[17] VDD2 SUB net8 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x1 IOVDD2 VSS2 analog_io[10] VDD2 SUB analog_io_padres[10] IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x2 IOVDD2 VSS2 analog_io[11] VDD2 SUB analog_io_padres[11] IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x3 IOVDD2 VSS2 analog_io[12] VDD2 SUB analog_io_padres[12] IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x4 IOVDD2 VSS2 analog_io[13] VDD2 SUB net1 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x11 IOVDD2 VSS2 analog_io[14] VDD2 SUB net2 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x12 IOVDD2 VSS2 analog_io[15] VDD2 SUB net3 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x13 IOVDD2 VSS2 analog_io[16] VDD2 SUB analog_io_padres[16] IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x14 IOVDD2 VSS2 analog_io[17] VDD2 SUB net4 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
 x16 VSS2 VDD2 SUB IOVSS2 IOVDD2 IOVSS2 sg13g2_IOPadIOVdd
 x17 VSS2 VDD2 SUB IOVSS2 IOVDD2 sg13g2_IOPadIOVss
 * noconn #net1
 * noconn #net2
 * noconn #net3
 * noconn #net4
+x7 IOVDD2 VDD2 VSS2 SUB IOVSS2 IOVSS2 IOVSS2 sg13g2_Corner_noptap
+x8 IOVDD3 VSS3 analog_io[18] VDD3 SUB net5 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x9 VSS3 VDD3 SUB IOVSS3 IOVDD3 IOVSS3 sg13g2_IOPadVss
+x18 VSS3 VDD3 SUB IOVSS3 IOVDD3 IOVSS3 sg13g2_IOPadVdd
+x19 IOVDD3 VSS3 analog_io[19] VDD3 SUB analog_io_padres[19] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x20 IOVDD3 VSS3 analog_io[20] VDD3 SUB net6 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x21 IOVDD3 VSS3 analog_io[21] VDD3 SUB net7 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x22 IOVDD3 VSS3 analog_io[22] VDD3 SUB analog_io_padres[22] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x23 IOVDD3 VSS3 analog_io[23] VDD3 SUB net8 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x24 IOVDD3 VSS3 analog_io[24] VDD3 SUB net9 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x25 IOVDD3 VSS3 analog_io[25] VDD3 SUB analog_io_padres[25] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x26 IOVDD3 VSS3 analog_io[26] VDD3 SUB net10 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x27 VSS3 VDD3 SUB IOVSS3 IOVDD3 IOVSS3 sg13g2_IOPadIOVdd
+x28 VSS3 VDD3 SUB IOVSS3 IOVDD3 sg13g2_IOPadIOVss
 * noconn #net5
 * noconn #net6
 * noconn #net7
 * noconn #net8
-x7 IOVDD2 VDD2 VSS2 SUB IOVSS2 IOVSS2 IOVSS2 sg13g2_Corner_noptap
-x8 IOVDD3 VSS3 analog_io[18] VDD3 SUB net9 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
-x9 VSS3 VDD3 SUB IOVSS3 IOVDD3 IOVSS3 sg13g2_IOPadVss
-x18 VSS3 VDD3 SUB IOVSS3 IOVDD3 IOVSS3 sg13g2_IOPadVdd
-x19 IOVDD3 VSS3 analog_io[19] VDD3 SUB analog_io_padres[19] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
-x20 IOVDD3 VSS3 analog_io[20] VDD3 SUB net10 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
-x21 IOVDD3 VSS3 analog_io[21] VDD3 SUB net11 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
-x22 IOVDD3 VSS3 analog_io[22] VDD3 SUB analog_io_padres[22] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
-x23 IOVDD3 VSS3 analog_io[23] VDD3 SUB net12 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
-x24 IOVDD3 VSS3 analog_io[24] VDD3 SUB net13 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
-x25 IOVDD3 VSS3 analog_io[25] VDD3 SUB analog_io_padres[25] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
-x26 IOVDD3 VSS3 analog_io[26] VDD3 SUB net14 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
-x27 VSS3 VDD3 SUB IOVSS3 IOVDD3 IOVSS3 sg13g2_IOPadIOVdd
-x28 VSS3 VDD3 SUB IOVSS3 IOVDD3 sg13g2_IOPadIOVss
 * noconn #net9
 * noconn #net10
+* noconn SUB
+x29 IOVDD3 VDD3 VSS3 SUB IOVSS3 IOVSS3 IOVSS3 sg13g2_Corner_noptap
+x30 IOVDD4 VSS4 analog_io[35] VDD4 SUB net11 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x31 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 sg13g2_IOPadIOVdd
+x32 VSS4 VDD4 SUB IOVSS4 IOVDD4 sg13g2_IOPadIOVss
+x33 IOVDD4 VSS4 analog_io[34] VDD4 SUB analog_io_padres[34] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x34 IOVDD4 VSS4 analog_io[33] VDD4 SUB analog_io_padres[33] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x35 IOVDD4 VSS4 analog_io[32] VDD4 SUB net12 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x36 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 ui_PAD[31] ui_p2c[31] sg13g2_IOPadIn
+x37 IOVDD4 VSS4 analog_io[30] VDD4 SUB net13 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x38 IOVDD4 VSS4 analog_io[29] VDD4 SUB analog_io_padres[29] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x39 IOVDD4 VSS4 analog_io[28] VDD4 SUB analog_io_padres[28] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x40 IOVDD4 VSS4 analog_io[27] VDD4 SUB net14 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x41 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 sg13g2_IOPadVdd
+x42 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 sg13g2_IOPadVss
 * noconn #net11
 * noconn #net12
 * noconn #net13
 * noconn #net14
 * noconn SUB
-x29 IOVDD3 VDD3 VSS3 SUB IOVSS3 IOVSS3 IOVSS3 sg13g2_Corner_noptap
-x30 IOVDD4 VSS4 analog_io[35] VDD4 SUB net15 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
-x31 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 sg13g2_IOPadIOVdd
-x32 VSS4 VDD4 SUB IOVSS4 IOVDD4 sg13g2_IOPadIOVss
-x33 IOVDD4 VSS4 analog_io[34] VDD4 SUB analog_io_padres[34] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
-x34 IOVDD4 VSS4 analog_io[33] VDD4 SUB analog_io_padres[33] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
-x35 IOVDD4 VSS4 analog_io[32] VDD4 SUB net16 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
-x36 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 ui_PAD[31] ui_p2c[31] sg13g2_IOPadIn
-x37 IOVDD4 VSS4 analog_io[30] VDD4 SUB net17 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
-x38 IOVDD4 VSS4 analog_io[29] VDD4 SUB analog_io_padres[29] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
-x39 IOVDD4 VSS4 analog_io[28] VDD4 SUB analog_io_padres[28] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
-x40 IOVDD4 VSS4 analog_io[27] VDD4 SUB net18 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
-x41 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 sg13g2_IOPadVdd
-x42 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 sg13g2_IOPadVss
-* noconn #net15
-* noconn #net16
-* noconn #net17
-* noconn #net18
-* noconn SUB
 x43 IOVDD4 VDD4 VSS4 SUB IOVSS4 IOVSS4 IOVSS4 sg13g2_Corner_noptap
 x44 VSS1 VDD1 SUB IOVSS1 IOVDD1 uo_c2p[8] uo_PAD[8] IOVDD1 sg13g2_IOPadOut4mA
 x45 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 sg13g2_IOPadIOVdd
 x46 VSS1 VDD1 SUB IOVSS1 IOVDD1 sg13g2_IOPadIOVss
-x47 IOVDD1 VSS1 analog_io[7] VDD1 SUB net19 IOVSS1 IOVDD1 sg13g2_IOPadAnalog
+x47 IOVDD1 VSS1 analog_io[7] VDD1 SUB net15 IOVSS1 IOVDD1 sg13g2_IOPadAnalog
 x48 IOVDD1 VSS1 analog_io[6] VDD1 SUB analog_io_padres[6] IOVSS1 IOVDD1 sg13g2_IOPadAnalog
 x49 IOVDD1 VSS1 analog_io[5] VDD1 SUB analog_io_padres[5] IOVSS1 IOVDD1 sg13g2_IOPadAnalog
-x50 IOVDD1 VSS1 analog_io[4] VDD1 SUB net20 IOVSS1 IOVDD1 sg13g2_IOPadAnalog
+x50 IOVDD1 VSS1 analog_io[4] VDD1 SUB net16 IOVSS1 IOVDD1 sg13g2_IOPadAnalog
 x51 VSS1 VDD1 SUB IOVSS1 IOVDD1 uo_c2p[3] uo_PAD[3] IOVDD1 sg13g2_IOPadOut4mA
 x52 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 ui_PAD[2] ui_p2c[2] sg13g2_IOPadIn
 x53 IOVDD1 VSS1 analog_io[1] VDD1 SUB analog_io_padres[1] IOVSS1 IOVDD1 sg13g2_IOPadAnalog
 x54 IOVDD1 VSS1 analog_io[0] VDD1 SUB analog_io_padres[0] IOVSS1 IOVDD1 sg13g2_IOPadAnalog
 x55 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 sg13g2_IOPadVdd
 x56 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 sg13g2_IOPadVss
-* noconn #net19
-* noconn #net20
+* noconn #net15
+* noconn #net16
 * noconn SUB
 R4 VSS1 SUB ptap1 A=13.1934p P=84.705u
 R1 IOVSS1 SUB ptap1 A=10168.74p P=982.42u
