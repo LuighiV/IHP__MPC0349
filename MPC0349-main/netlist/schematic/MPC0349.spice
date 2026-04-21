@@ -1,0 +1,1293 @@
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/MPC0349-main/schematic/xschem/MPC0349.sch
+.subckt MPC0349 VDD3 VSS3 analog_io[0] analog_io[1] analog_io[19] ui_PAD[2] analog_io_20_21 uo_PAD[3] analog_io[22] analog_io[4]
++ analog_io[5] analog_io_23_24 analog_io[6] analog_io[25] analog_io[7] uo_PAD[8] analog_io[27] ui_PAD[9] analog_io[10] analog_io[28]
++ analog_io[11] analog_io[29] analog_io[12] analog_io[30] ui_PAD[31] analog_io[13] analog_io[32] analog_io[14] analog_io[15] analog_io[33]
++ analog_io[16] analog_io[34] analog_io[17] analog_io[35] IOVDD3 IOVSS3 VDD1 VSS1 IOVDD1 IOVSS1 IOVDD4 IOVSS4 VDD4 VSS4 IOVDD2 IOVSS2 VDD2 VSS2
+*.PININFO analog_io[32]:B analog_io[10]:B analog_io[4]:B analog_io[0]:B analog_io[1]:B analog_io[5]:B analog_io[6]:B
+*+ analog_io[7]:B analog_io[11]:B analog_io[12]:B analog_io[13]:B analog_io[14]:B analog_io[15]:B analog_io[16]:B analog_io[17]:B analog_io[19]:B
+*+ analog_io[30]:B analog_io_20_21:B analog_io[22]:B analog_io_23_24:B analog_io[25]:B analog_io[27]:B analog_io[28]:B analog_io[29]:B
+*+ analog_io[33]:B analog_io[34]:B analog_io[35]:B ui_PAD[31]:B ui_PAD[9]:B uo_PAD[8]:B uo_PAD[3]:B ui_PAD[2]:B VSS1:B VDD1:B IOVDD1:B IOVSS1:B
+*+ VSS4:B VDD4:B IOVDD4:B IOVSS4:B VSS2:B VDD2:B IOVDD2:B IOVSS2:B VSS3:B VDD3:B IOVDD3:B IOVSS3:B
+x1 VDD3 VSS3 analog_io[0] net2 analog_io[1] analog_io[19] ui_PAD[2] analog_io_20_21 analog_io_20_21 uo_PAD[3] analog_io[22]
++ analog_io[4] analog_io[5] analog_io_23_24 analog_io[6] analog_io_23_24 analog_io[25] analog_io[7] net1 uo_PAD[8] analog_io[27] ui_PAD[9]
++ analog_io[10] analog_io[28] analog_io[11] analog_io[29] analog_io[12] analog_io[30] ui_PAD[31] analog_io[13] analog_io[32] analog_io[14]
++ analog_io[15] analog_io[33] analog_io[16] analog_io[34] analog_io[17] analog_io[35] IOVDD3 IOVSS3 VDD1 VSS1 IOVDD1 IOVSS1 IOVDD4 IOVSS4 VDD4
++ VSS4 IOVDD2 IOVSS2 VDD3 VSS2 analog_io_padres[28] analog_io_padres[29] analog_io_padres[33] analog_io_padres[34] ui_P2C[31] uo_c2p[8]
++ analog_io_padres[6] analog_io_padres[0] analog_io_padres[1] ui_p2c[2] uo_c2p[3] analog_io_padres[5] ui_p2c[9] analog_io_padres[19]
++ analog_io_padres[22] analog_io_padres[25] analog_io_padres[10] analog_io_padres[11] analog_io_padres[12] analog_io_padres[16] net3 analog_io_23_24
++ net4 analog_io_20_21 SUB user_project_wrapper
+x2 VDD1 analog_io_padres[5] analog_io[7] analog_io[4] analog_io_padres[0] ui_p2c[9] uo_c2p[8] analog_io_padres[6] VSS1 555
+x3 VDD3 analog_io_padres[22] analog_io_20_21 analog_io_23_24 analog_io_padres[19] analog_io_padres[25] VSS3 HPA
+x4 VDD4 analog_io_padres[34] ui_P2C[31] analog_io[32] VSS4 analog_io_padres[33] analog_io[35] analog_io_padres[29]
++ analog_io_padres[28] analog_io[27] analog_io[30] TOP_ROILIFNEURON
+x6 VDD2 VSS2 analog_io_padres[10] analog_io[15] analog_io[14] analog_io_padres[11] analog_io[13] analog_io_padres[12]
++ analog_io_padres[16] analog_io[17] QDLL_TOP
+x5 VDD1 analog_io_padres[1] analog_io_padres[0] uo_c2p[3] ui_p2c[2] VSS1 PWMADCSYM
+* noconn #net1
+* noconn #net2
+* noconn #net4
+* noconn #net3
+.ends
+
+* expanding   symbol:  user_project_wrapper.sym # of pins=77
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/MPC0349-main/schematic/xschem/user_project_wrapper.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/MPC0349-main/schematic/xschem/user_project_wrapper.sch
+.subckt user_project_wrapper VDD3 VSS3 analog_io[0] analog_io[18] analog_io[1] analog_io[19] ui_PAD[2] analog_io[20] analog_io[21]
++ uo_PAD[3] analog_io[22] analog_io[4] analog_io[5] analog_io[23] analog_io[6] analog_io[24] analog_io[25] analog_io[7] analog_io[26]
++ uo_PAD[8] analog_io[27] ui_PAD[9] analog_io[10] analog_io[28] analog_io[11] analog_io[29] analog_io[12] analog_io[30] ui_PAD[31]
++ analog_io[13] analog_io[32] analog_io[14] analog_io[15] analog_io[33] analog_io[16] analog_io[34] analog_io[17] analog_io[35] IOVDD3 IOVSS3
++ VDD1 VSS1 IOVDD1 IOVSS1 IOVDD4 IOVSS4 VDD4 VSS4 IOVDD2 IOVSS2 VDD2 VSS2 analog_io_padres[28] analog_io_padres[29] analog_io_padres[33]
++ analog_io_padres[34] ui_p2c[31] uo_c2p[8] analog_io_padres[6] analog_io_padres[0] analog_io_padres[1] ui_p2c[2] uo_c2p[3] analog_io_padres[5]
++ ui_p2c[9] analog_io_padres[19] analog_io_padres[22] analog_io_padres[25] analog_io_padres[10] analog_io_padres[11] analog_io_padres[12]
++ analog_io_padres[16] analog_io_padres[24] analog_io_padres[23] analog_io_padres[21] analog_io_padres[20] SUB
+*.PININFO VSS1:B VDD1:B IOVDD1:B IOVSS1:B analog_io[32]:B analog_io[10]:B analog_io[4]:B analog_io[0]:B ui_PAD[31]:B ui_PAD[9]:B
+*+ uo_PAD[8]:B uo_PAD[3]:B ui_PAD[2]:B VSS2:B VDD2:B IOVDD2:B IOVSS2:B VSS3:B VDD3:B IOVDD3:B IOVSS3:B VSS4:B VDD4:B IOVDD4:B IOVSS4:B
+*+ analog_io_padres[28]:B analog_io_padres[33]:B ui_p2c[31]:B ui_p2c[9]:B ui_p2c[2]:B analog_io_padres[5]:B analog_io_padres[0]:B uo_c2p[8]:B uo_c2p[3]:B
+*+ analog_io_padres[19]:B analog_io_padres[20]:B analog_io_padres[25]:B analog_io_padres[1]:B analog_io_padres[6]:B analog_io_padres[29]:B
+*+ analog_io_padres[34]:B analog_io[1]:B analog_io[5]:B analog_io[6]:B analog_io[7]:B analog_io[11]:B analog_io[12]:B analog_io[13]:B analog_io[14]:B
+*+ analog_io[15]:B analog_io[16]:B analog_io[17]:B analog_io[18]:B analog_io[19]:B analog_io[30]:B analog_io[20]:B analog_io[21]:B analog_io[22]:B
+*+ analog_io[23]:B analog_io[24]:B analog_io[25]:B analog_io[26]:B analog_io[27]:B analog_io[28]:B analog_io[29]:B analog_io[33]:B analog_io[34]:B
+*+ analog_io[35]:B analog_io_padres[10]:B analog_io_padres[11]:B analog_io_padres[12]:B analog_io_padres[16]:B analog_io_padres[21]:B
+*+ analog_io_padres[22]:B analog_io_padres[23]:B analog_io_padres[24]:B SUB:B
+x5 IOVDD1 VDD1 VSS1 SUB IOVSS1 IOVSS1 IOVSS1 sg13g2_Corner_noptap
+x6 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 ui_PAD[9] ui_p2c[9] sg13g2_IOPadIn
+x10 VSS2 VDD2 SUB IOVSS2 IOVDD2 IOVSS2 sg13g2_IOPadVss
+x11[1] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x11[0] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x12[1] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler1000
+x12[0] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler1000
+x13[1] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x13[0] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x14[1] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler200
+x14[0] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler200
+x15 VSS2 VDD2 SUB IOVSS2 IOVDD2 IOVSS2 sg13g2_IOPadVdd
+x16[11] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[10] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[9] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[8] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[7] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[6] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[5] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[4] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[3] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[2] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[1] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x16[0] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler4000
+x17[11] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[10] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[9] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[8] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[7] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[6] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[5] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[4] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[3] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[2] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[1] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x17[0] IOVDD1 IOVSS1 VDD1 IOVSS1 IOVSS1 VSS1 SUB sg13g2_Filler400
+x1 IOVDD2 VSS2 analog_io[10] VDD2 SUB analog_io_padres[10] IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x2 IOVDD2 VSS2 analog_io[11] VDD2 SUB analog_io_padres[11] IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x3 IOVDD2 VSS2 analog_io[12] VDD2 SUB analog_io_padres[12] IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x4 IOVDD2 VSS2 analog_io[13] VDD2 SUB net1 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x11 IOVDD2 VSS2 analog_io[14] VDD2 SUB net2 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x12 IOVDD2 VSS2 analog_io[15] VDD2 SUB net3 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x13 IOVDD2 VSS2 analog_io[16] VDD2 SUB analog_io_padres[16] IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x14 IOVDD2 VSS2 analog_io[17] VDD2 SUB net4 IOVSS2 IOVDD2 sg13g2_IOPadAnalog
+x16 VSS2 VDD2 SUB IOVSS2 IOVDD2 IOVSS2 sg13g2_IOPadIOVdd
+x17 VSS2 VDD2 SUB IOVSS2 IOVDD2 sg13g2_IOPadIOVss
+* noconn #net1
+* noconn #net2
+* noconn #net3
+* noconn #net4
+x7 IOVDD2 VDD2 VSS2 SUB IOVSS2 IOVSS2 IOVSS2 sg13g2_Corner_noptap
+x8 IOVDD3 VSS3 analog_io[18] VDD3 SUB net5 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x9 VSS3 VDD3 SUB IOVSS3 IOVDD3 IOVSS3 sg13g2_IOPadVss
+x18 VSS3 VDD3 SUB IOVSS3 IOVDD3 IOVSS3 sg13g2_IOPadVdd
+x19 IOVDD3 VSS3 analog_io[19] VDD3 SUB analog_io_padres[19] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x20 IOVDD3 VSS3 analog_io[20] VDD3 SUB analog_io_padres[20] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x21 IOVDD3 VSS3 analog_io[21] VDD3 SUB analog_io_padres[21] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x22 IOVDD3 VSS3 analog_io[22] VDD3 SUB analog_io_padres[22] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x23 IOVDD3 VSS3 analog_io[23] VDD3 SUB analog_io_padres[23] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x24 IOVDD3 VSS3 analog_io[24] VDD3 SUB analog_io_padres[24] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x25 IOVDD3 VSS3 analog_io[25] VDD3 SUB analog_io_padres[25] IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x26 IOVDD3 VSS3 analog_io[26] VDD3 SUB net6 IOVSS3 IOVDD3 sg13g2_IOPadAnalog
+x27 VSS3 VDD3 SUB IOVSS3 IOVDD3 IOVSS3 sg13g2_IOPadIOVdd
+x28 VSS3 VDD3 SUB IOVSS3 IOVDD3 sg13g2_IOPadIOVss
+* noconn #net5
+* noconn #net6
+* noconn SUB
+x29 IOVDD3 VDD3 VSS3 SUB IOVSS3 IOVSS3 IOVSS3 sg13g2_Corner_noptap
+x30 IOVDD4 VSS4 analog_io[35] VDD4 SUB net7 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x31 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 sg13g2_IOPadIOVdd
+x32 VSS4 VDD4 SUB IOVSS4 IOVDD4 sg13g2_IOPadIOVss
+x33 IOVDD4 VSS4 analog_io[34] VDD4 SUB analog_io_padres[34] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x34 IOVDD4 VSS4 analog_io[33] VDD4 SUB analog_io_padres[33] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x35 IOVDD4 VSS4 analog_io[32] VDD4 SUB net8 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x36 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 ui_PAD[31] ui_p2c[31] sg13g2_IOPadIn
+x37 IOVDD4 VSS4 analog_io[30] VDD4 SUB net9 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x38 IOVDD4 VSS4 analog_io[29] VDD4 SUB analog_io_padres[29] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x39 IOVDD4 VSS4 analog_io[28] VDD4 SUB analog_io_padres[28] IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x40 IOVDD4 VSS4 analog_io[27] VDD4 SUB net10 IOVSS4 IOVDD4 sg13g2_IOPadAnalog
+x41 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 sg13g2_IOPadVdd
+x42 VSS4 VDD4 SUB IOVSS4 IOVDD4 IOVSS4 sg13g2_IOPadVss
+* noconn #net7
+* noconn #net8
+* noconn #net9
+* noconn #net10
+* noconn SUB
+x43 IOVDD4 VDD4 VSS4 SUB IOVSS4 IOVSS4 IOVSS4 sg13g2_Corner_noptap
+x44 VSS1 VDD1 SUB IOVSS1 IOVDD1 uo_c2p[8] uo_PAD[8] IOVDD1 sg13g2_IOPadOut4mA
+x45 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 sg13g2_IOPadIOVdd
+x46 VSS1 VDD1 SUB IOVSS1 IOVDD1 sg13g2_IOPadIOVss
+x47 IOVDD1 VSS1 analog_io[7] VDD1 SUB net11 IOVSS1 IOVDD1 sg13g2_IOPadAnalog
+x48 IOVDD1 VSS1 analog_io[6] VDD1 SUB analog_io_padres[6] IOVSS1 IOVDD1 sg13g2_IOPadAnalog
+x49 IOVDD1 VSS1 analog_io[5] VDD1 SUB analog_io_padres[5] IOVSS1 IOVDD1 sg13g2_IOPadAnalog
+x50 IOVDD1 VSS1 analog_io[4] VDD1 SUB net12 IOVSS1 IOVDD1 sg13g2_IOPadAnalog
+x51 VSS1 VDD1 SUB IOVSS1 IOVDD1 uo_c2p[3] uo_PAD[3] IOVDD1 sg13g2_IOPadOut4mA
+x52 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 ui_PAD[2] ui_p2c[2] sg13g2_IOPadIn
+x53 IOVDD1 VSS1 analog_io[1] VDD1 SUB analog_io_padres[1] IOVSS1 IOVDD1 sg13g2_IOPadAnalog
+x54 IOVDD1 VSS1 analog_io[0] VDD1 SUB analog_io_padres[0] IOVSS1 IOVDD1 sg13g2_IOPadAnalog
+x55 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 sg13g2_IOPadVdd
+x56 VSS1 VDD1 SUB IOVSS1 IOVDD1 IOVSS1 sg13g2_IOPadVss
+* noconn #net11
+* noconn #net12
+* noconn SUB
+R4 VSS1 SUB ptap1 A=13.1934p P=84.705u
+R1 IOVSS1 SUB ptap1 A=10168.74p P=982.42u
+x1[0] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x2[0] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler1000
+x3[1] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x3[0] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x4[0] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler200
+x5[10] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[9] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[8] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[7] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[6] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[5] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[4] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[3] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[2] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[1] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x5[0] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler4000
+x6[10] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[9] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[8] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[7] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[6] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[5] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[4] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[3] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[2] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[1] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+x6[0] IOVDD2 IOVSS2 VDD2 IOVSS2 IOVSS2 VSS2 SUB sg13g2_Filler400
+R2 VSS2 SUB ptap1 A=13.1934p P=84.705u
+R3 IOVSS2 SUB ptap1 A=10168.74p P=982.42u
+x7[0] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x8[2] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler1000
+x8[1] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler1000
+x8[0] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler1000
+x9[2] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x9[1] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x9[0] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x10[2] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler200
+x10[1] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler200
+x10[0] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler200
+x15[11] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[10] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[9] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[8] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[7] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[6] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[5] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[4] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[3] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[2] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[1] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x15[0] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler4000
+x18[11] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[10] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[9] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[8] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[7] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[6] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[5] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[4] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[3] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[2] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[1] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+x18[0] IOVDD3 IOVSS3 VDD3 IOVSS3 IOVSS3 VSS3 SUB sg13g2_Filler400
+R5 VSS3 SUB ptap1 A=13.1934p P=84.705u
+R6 IOVSS3 SUB ptap1 A=10168.74p P=982.42u
+x19[0] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x20[1] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler1000
+x20[0] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler1000
+x21[1] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x21[0] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x22[1] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler200
+x22[0] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler200
+x23[11] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[10] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[9] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[8] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[7] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[6] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[5] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[4] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[3] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[2] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[1] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x23[0] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler4000
+x24[11] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[10] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[9] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[8] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[7] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[6] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[5] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[4] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[3] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[2] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[1] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+x24[0] IOVDD4 IOVSS4 VDD4 IOVSS4 IOVSS4 VSS4 SUB sg13g2_Filler400
+R7 VSS4 SUB ptap1 A=13.1934p P=84.705u
+R8 IOVSS4 SUB ptap1 A=10168.74p P=982.42u
+.ends
+
+
+* expanding   symbol:  555.sym # of pins=9
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/555.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/555.sch
+.subckt 555 VDD TRESHOLD DISCHARGE CONTROL VBIAS RESET OUTPUT TRIGGER VSS
+*.PININFO OUTPUT:O TRIGGER:I VSS:B RESET:I TRESHOLD:I DISCHARGE:O VBIAS:I CONTROL:I VDD:B
+x1 VDD TRESHOLD CONTROL net2 VBIAS VSS Opamp
+x2 VDD net1 net7 net6 net2 RESET VSS LatchJK
+x3 VDD net3 TRIGGER net1 VBIAS VSS Opamp
+MMN0 DISCHARGE net5 VSS VSS sg13_lv_nmos w=7.4u l=130.00n ng=1 m=1
+x4 VDD net4 net6 VSS inv
+x5 VDD OUTPUT net4 VSS inv
+x6 VDD net5 OUTPUT VSS inv
+RR1 VDD CONTROL 174.352941176471 $SUB=VSS $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+RR2 CONTROL net3 174.352941176471 $SUB=VSS $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+RR3 net3 VSS 174.352941176471 $SUB=VSS $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  HPA.sym # of pins=7
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/HPA.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/HPA.sch
+.subckt HPA VDD VREF VOUTp VOUTn VINp VINn VSS
+*.PININFO VDD:B VSS:B VREF:B VINp:I VINn:I VOUTn:O VOUTp:O
+x1 VDD VSS net2 net2 VOUTp VINp VINn VOUTn net3 net3 net1 VREF net1 Vop Von OTA_Telescopic_TOP_wp
+* noconn Vop
+* noconn Von
+.ends
+
+
+* expanding   symbol:  TOP_ROILIFNEURON.sym # of pins=11
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/TOP_ROILIFNEURON.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/TOP_ROILIFNEURON.sch
+.subckt TOP_ROILIFNEURON VDD Vx2 RST SPIKEB2 VSS Vref2 COMPB2 Vx1 Vref1 SPIKEB1 COMPB1
+*.PININFO SPIKEB1:O COMPB1:O SPIKEB2:O COMPB2:O VDD:B VSS:B Vx1:I Vref1:I Vx2:I Vref2:I RST:I
+xSPKB1 VDD SPIKE1 SPIKEB1 VSS gate_buff_pad
+xCOMPB1 VDD COMP1 COMPB1 VSS gate_buff_pad
+* noconn MEM1
+* noconn MEM2
+xSPKB2 VDD SPIKE2 SPIKEB2 VSS gate_buff_pad
+xCOMPB2 VDD COMP2 COMPB2 VSS gate_buff_pad
+xLIF1 VDD Vx1 MEM1 RST SPIKE1 VSS Vref1 COMP1 LIF_neuron
+xLIF2 VDD Vx2 MEM2 RST SPIKE2 VSS Vref2 COMP2 LIF_neuron
+.ends
+
+
+* expanding   symbol:  QDLL_TOP.sym # of pins=10
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/QDLL_TOP.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/QDLL_TOP.sch
+.subckt QDLL_TOP VDD VSS IN1 OUT1 OUT2 IN2 CPOUT2 VCONT2 IN3 OUT3
+*.PININFO VDD:B VSS:B IN1:I IN2:I OUT1:O OUT2:O CPOUT2:O VCONT2:I OUT3:O IN3:I
+x2 VDD IN1 net1 net3 VSS VCDL
+x5 VDD IN2 net4 VCONT2 VSS VCDL
+x1 VSS VDD net4 OUT2 DLine
+x3 VSS VDD IN3 OUT3 DLine
+x4 VSS VDD net1 OUT1 DLine
+x6 VDD VSS IN2 net5 OUT2 PD
+x7 VDD VSS IN1 net2 OUT1 PD
+x8 net2 net3 VSS CP
+x9 net5 CPOUT2 VSS CP
+.ends
+
+
+* expanding   symbol:  PWMADCSYM.sym # of pins=6
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/PWMADCSYM.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/PWMADCSYM.sch
+.subckt PWMADCSYM VDD VIN VBIAS PWM CLK VSS
+*.PININFO PWM:O VSS:B VDD:B VIN:I VBIAS:I CLK:I
+x1 VDD VBIAS VIN VSS net1 net2 net3 flashadcSym
+x2 VDD net5 net4 net6 CLK VSS cont3
+x3 net6 PWM net3 net5 net2 net4 net1 VDD VSS 3bitcomparator
+.ends
+
+
+* expanding   symbol:  sg13g2_Corner_noptap.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Corner_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Corner_noptap.sch
+.subckt sg13g2_Corner_noptap iovdd vdd vss sub iovss1 iovss3 iovss2
+*.PININFO vss:B iovdd:B vdd:B sub:B iovss1:B iovss2:B iovss3:B
+* noconn iovdd
+* noconn vdd
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadIn.sym # of pins=8
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIn.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIn.sch
+.subckt sg13g2_IOPadIn vss vdd ! iovss iovdd iovss1 pad p2c
+*.PININFO iovdd:B vss:B vdd:B !:B iovss:B iovss1:B pad:B p2c:B
+R2 vss ! ptap1 A=24p P=160.6u
+R1 iovss1 ! ptap1 A=5416.1304p P=746.28u
+x4 iovdd iovss1 pad p2c vdd vss ! sg13g2_LevelDown_noptap
+x2 iovdd ! pad pad ! sg13g2_DCPDiode_noptap
+x1 pad iovss pad iovdd ! sg13g2_DCNDiode
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadVss.sym # of pins=6
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadVss.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadVss.sch
+.subckt sg13g2_IOPadVss vss vdd sub iovss iovdd iovss1
+*.PININFO iovdd:B vss:B vdd:B sub:B iovss:B iovss1:B
+R2 vss sub ptap1 A=24p P=160.6u
+x2 iovdd sub vss vss sub sg13g2_DCPDiode_noptap
+x4 vss iovss vss iovdd sub sg13g2_DCNDiode
+* noconn vdd
+R1 iovss1 sub ptap1 A=5407.1p P=703.48u
+.ends
+
+
+* expanding   symbol:  sg13g2_Filler4000.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler4000.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler4000.sch
+.subckt sg13g2_Filler4000 iovdd iovss1 vdd iovss2 iovss3 vss sub
+*.PININFO iovss1:B iovss2:B iovss3:B vss:B iovdd:B vdd:B sub:B
+R3 iovss3 sub ptap1 A=478.725p P=88.1u
+R4 vss sub ptap1 A=5.85p P=39.6u
+* noconn iovdd
+* noconn vdd
+R1 iovss1 sub ptap1 A=478.92p P=88.12u
+R2 iovss2 sub ptap1 A=469.17p P=87.12u
+.ends
+
+
+* expanding   symbol:  sg13g2_Filler1000.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler1000.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler1000.sch
+.subckt sg13g2_Filler1000 iovdd iovss1 vdd iovss2 iovss3 vss sub
+*.PININFO iovss1:B iovss2:B iovss3:B vss:B iovdd:B vdd:B sub:B
+R3 iovss3 sub ptap1 A=110.475p P=58.1u
+R4 vss sub ptap1 A=1.368p P=9.72u
+* noconn iovdd
+* noconn vdd
+R1 iovss1 sub ptap1 A=110.52p P=58.12u
+R2 iovss2 sub ptap1 A=108.27p P=57.12u
+.ends
+
+
+* expanding   symbol:  sg13g2_Filler400.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler400.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler400.sch
+.subckt sg13g2_Filler400 iovdd iovss1 vdd iovss2 iovss3 vss sub
+*.PININFO iovss1:B iovss2:B iovss3:B vss:B iovdd:B vdd:B sub:B
+R3 iovss3 sub ptap1 A=38.298p P=52.22u
+R4 vss sub ptap1 A=0.672p P=5.08u
+* noconn iovdd
+* noconn vdd
+R1 iovss1 sub ptap1 A=38.3136p P=52.24u
+R2 iovss2 sub ptap1 A=37.5336p P=51.24u
+.ends
+
+
+* expanding   symbol:  sg13g2_Filler200.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler200.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Filler200.sch
+.subckt sg13g2_Filler200 iovdd iovss1 vdd iovss2 iovss3 vss sub
+*.PININFO iovss1:B iovss2:B iovss3:B vss:B iovdd:B vdd:B sub:B
+R3 iovss3 sub ptap1 A=13.7536p P=50.24u
+R4 vss sub ptap1 A=0.678p P=5.12u
+R1 iovss1 sub ptap1 A=13.748p P=50.22u
+R2 iovss2 sub ptap1 A=13.4736p P=49.24u
+* noconn iovdd
+* noconn vdd
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadVdd.sym # of pins=6
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadVdd.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadVdd.sch
+.subckt sg13g2_IOPadVdd vss vdd ! iovss iovdd iovss1
+*.PININFO iovdd:B vss:B vdd:B !:B iovss1:B iovss:B
+R2 vss ! ptap1 A=24p P=160.6u
+R1 iovss1 ! ptap1 A=2051.93485p P=727.53u
+x1 iovss vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd vdd ! net2 sg13g2_Clamp_N43N43D4R
+x2 vdd net1 ! sg13g2_RCClampResistor
+x3 vdd iovss1 net1 net2 ! sg13g2_RCClampInverter_noptap
+* noconn iovdd
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadAnalog.sym # of pins=8
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadAnalog.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadAnalog.sch
+.subckt sg13g2_IOPadAnalog iovdd1 vss pad vdd ! padres iovss iovdd
+*.PININFO padres:B iovdd:B vss:B vdd:B !:B iovss:B pad:B iovdd1:B
+R2 vss ! ptap1 A=23.85p P=159.6u
+x1 iovdd iovss pad pad pad pad pad pad pad pad pad pad ! sg13g2_Clamp_P20N0D_noptap
+x2 iovdd ! pad pad ! sg13g2_DCPDiode_noptap
+x3 iovss pad pad pad pad pad pad pad pad pad pad ! sg13g2_Clamp_N20N0D
+x4 pad iovss pad iovdd ! sg13g2_DCNDiode
+x5 padres iovdd1 iovss pad ! sg13g2_SecondaryProtection
+* noconn vdd
+R1 iovss ! ptap1 A=4373.9448p P=1112.3u
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadIOVdd.sym # of pins=6
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIOVdd.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIOVdd.sch
+.subckt sg13g2_IOPadIOVdd vss vdd ! iovss iovdd iovss1
+*.PININFO iovdd:B vss:B vdd:B !:B iovss1:B iovss:B
+R2 vss ! ptap1 A=24p P=160.6u
+* noconn vdd
+R1 iovss1 ! ptap1 A=2052.0763p P=727.52u
+x1 iovss iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd iovdd
++ iovdd iovdd ! net2 sg13g2_Clamp_N43N43D4R
+x2 iovdd net1 ! sg13g2_RCClampResistor
+x3 iovdd iovss1 net1 net2 ! sg13g2_RCClampInverter_noptap
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadIOVss.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIOVss.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadIOVss.sch
+.subckt sg13g2_IOPadIOVss vss vdd sub iovss iovdd
+*.PININFO iovdd:B vss:B vdd:B sub:B iovss:B
+R2 vss sub ptap1 A=24p P=160.6u
+* noconn vdd
+R1 iovss sub ptap1 A=5407.1p P=703.48u
+x2 iovdd sub iovss iovss sub sg13g2_DCPDiode_noptap
+x1 iovss iovss iovss iovdd sub sg13g2_DCNDiode
+.ends
+
+
+* expanding   symbol:  sg13g2_IOPadOut4mA.sym # of pins=8
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadOut4mA.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_IOPadOut4mA.sch
+.subckt sg13g2_IOPadOut4mA vss vdd sub iovss iovdd1 c2p pad iovdd
+*.PININFO iovdd1:B vss:B vdd:B sub:B iovss:B iovdd:B pad:B c2p:B
+R2 vss sub ptap1 A=24p P=160.6u
+R1 iovss sub ptap1 A=4413.9448p P=953.3u
+x2 iovdd sub pad pad sub sg13g2_DCPDiode_noptap
+x1 pad iovss pad iovdd sub sg13g2_DCNDiode
+x3 iovdd1 vss c2p net1 vdd sub net2 sg13g2_GateLevelUpInv_noptap
+x4 net2 pad iovss sub sg13g2_Clamp_N2N2D
+x5 net1 iovdd iovss pad sub sg13g2_Clamp_P2N2D_noptap
+.ends
+
+
+* expanding   symbol:  Opamp.sym # of pins=6
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/Opamp.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/Opamp.sch
+.subckt Opamp VDD Vin Vref Vout Vbias VSS
+*.PININFO Vin:I VDD:B VSS:B Vref:I Vout:O Vbias:I
+MMP5 net4 net4 VDD VDD sg13_lv_pmos w=10u l=150.00n ng=1 m=1
+MMP6 net1 net4 VDD VDD sg13_lv_pmos w=10u l=150.00n ng=1 m=1
+MMN4 net3 net2 VSS VSS sg13_lv_nmos w=420.00n l=560.00n ng=1 m=1
+MMN5 net2 net2 VSS VSS sg13_lv_nmos w=420.00n l=560.00n ng=1 m=1
+MMN6 net4 Vbias VSS VSS sg13_lv_nmos w=500.00n l=150.00n ng=1 m=1
+MMP7 net2 Vref net1 VDD sg13_lv_pmos w=10u l=300.00n ng=1 m=1
+MMP8 net3 Vin net1 VDD sg13_lv_pmos w=10u l=300.00n ng=1 m=1
+MMN7 Vout net3 VSS VSS sg13_lv_nmos w=420.00n l=560.00n ng=1 m=1
+MMP9 Vout net4 VDD VDD sg13_lv_pmos w=5u l=150.00n ng=1 m=1
+.ends
+
+
+* expanding   symbol:  LatchJK.sym # of pins=7
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/LatchJK.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/LatchJK.sch
+.subckt LatchJK VDD S Qn Q R Rn VSS
+*.PININFO Qn:O Rn:I VDD:B VSS:B R:I S:I Q:O
+x2 VDD Q S Qn VSS NOR
+x21 VDD net2 Qn Q VSS NOR
+x22 VDD net1 Rn net2 VSS NAND
+x25 VDD net1 R VSS inv
+.ends
+
+
+* expanding   symbol:  inv.sym # of pins=4
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/inv.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/inv.sch
+.subckt inv VDD Y A VSS
+*.PININFO Y:O A:I VDD:B VSS:B
+MMN0 Y A VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP0 Y A VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+.ends
+
+
+* expanding   symbol:  OTA_Telescopic_TOP_wp.sym # of pins=15
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_TOP_wp.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_TOP_wp.sch
+.subckt OTA_Telescopic_TOP_wp VDD VSS VPout VPin VOUTP VP VN VOUTN VNin VNout CMFBin VREF CMFBout Vop Von
+*.PININFO VP:I VN:I VOUTP:O VOUTN:O VPin:I VNin:I VPout:O VNout:O VDD:B VSS:B VREF:B CMFBin:I CMFBout:O Von:O Vop:O
+x3 VDD I_P I_N VSS I_P2 I_P3 OTA_Telescopic_currentRef
+x2 VDD VREF Vop Von I_N CMFBout VSS OTA_Telescopic_CMFB
+x1 I_P VPout VP VPin Vop VDD Von VSS VNin VNout VN CMFBin OTA_Telescopic_FB
+x4 VDD VOUTN I_P2 Von VSS Buffer
+x5 VDD VOUTP I_P3 Vop VSS Buffer
+.ends
+
+
+* expanding   symbol:  gate_buff_pad.sym # of pins=4
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_buff_pad.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_buff_pad.sch
+.subckt gate_buff_pad VDD VIN VOUT VSS
+*.PININFO VDD:I VIN:I VSS:I VOUT:O
+MMN1 X VIN VSS VSS sg13_lv_nmos w=4.8u l=0.13u ng=1 m=1
+MMP1 X VIN VDD VDD sg13_lv_pmos w=9.6u l=0.13u ng=1 m=1
+MMN2 Y X VSS VSS sg13_lv_nmos w=4.8u l=0.13u ng=1 m=4
+MMP2 Y X VDD VDD sg13_lv_pmos w=9.6u l=0.13u ng=1 m=4
+MMN3 Z Y VSS VSS sg13_lv_nmos w=4.8u l=0.13u ng=1 m=16
+MMP3 Z Y VDD VDD sg13_lv_pmos w=9.6u l=0.13u ng=1 m=16
+MMN4 VOUT Z VSS VSS sg13_lv_nmos w=4.8u l=0.13u ng=1 m=64
+MMP4 VOUT Z VDD VDD sg13_lv_pmos w=9.6u l=0.13u ng=1 m=64
+.ends
+
+
+* expanding   symbol:  LIF_neuron.sym # of pins=8
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/LIF_neuron.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/LIF_neuron.sch
+.subckt LIF_neuron VDD Vx MEM RST SPIKE VSS Vref COMP
+*.PININFO VDD:B VSS:B MEM:O Vx:I Vref:I SPIKE:O RST:I COMP:O
+xINT Vref VSS VDD INT_RST Vx MEM integrator
+xSPK VDD COMP SPIKE INT_RST RST VSS spike_generator
+xRES VDD MEM Vx VSS resistence_bank
+xCOMP VDD MEM COMP VSS threshold_comparator
+.ends
+
+
+* expanding   symbol:  IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/VCDL.sym # of pins=5
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/VCDL.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/VCDL.sch
+.subckt VCDL VDD VIN VOUT VCONT VSS
+*.PININFO VDD:B VSS:B VIN:I VCONT:I VOUT:O
+MM1 VOUT VIN net3 VSS sg13_lv_nmos w=2u l=0.13u ng=1 m=1
+MM2 net3 VCONT VSS VSS sg13_lv_nmos w=3.5u l=0.18u ng=1 m=1
+MM3 net1 VCONT VSS VSS sg13_lv_nmos w=2u l=0.25u ng=1 m=1
+MM4 VOUT VIN net2 VDD sg13_lv_pmos w=4.46u l=0.13u ng=1 m=1
+MM5 net2 net1 VDD VDD sg13_lv_pmos w=2.24u l=0.13u ng=1 m=1
+MM6 net1 net1 VDD VDD sg13_lv_pmos w=2.24u l=0.13u ng=1 m=1
+.ends
+
+
+* expanding   symbol:  IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/DLine.sym # of pins=4
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/DLine.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/DLine.sch
+.subckt DLine VSS VDD VIN VOUT
+*.PININFO VOUT:O VIN:I VDD:B VSS:B
+x2 net1 net4 VDD VSS sg13g2_inv_4
+x3 net2 net1 VDD VSS sg13g2_inv_8
+x4 VOUT net2 VDD VSS sg13g2_inv_16
+x5 net3 VIN VDD VSS sg13g2_dlygate4sd3_1
+x6 net4 net3 VDD VSS sg13g2_dlygate4sd2_1
+.ends
+
+
+* expanding   symbol:  IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/PD.sym # of pins=5
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/PD.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/PD.sch
+.subckt PD VDD VSS PDIN1 PDOUT PDIN2
+*.PININFO VDD:B VSS:B PDOUT:O PDIN1:I PDIN2:I
+x1 PDOUT PDIN1 PDIN2 VDD VSS sg13g2_xor2_1
+.ends
+
+
+* expanding   symbol:  IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/CP.sym # of pins=3
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/CP.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/CP.sch
+.subckt CP CPIN CPOUT VSS
+*.PININFO VSS:B CPIN:I CPOUT:O
+CC1 CPOUT VSS cap_cmim w=60e-6 l=20e-6 m=1
+x1 CPOUT CPIN RES
+.ends
+
+
+* expanding   symbol:  flashadcSym.sym # of pins=7
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/flashadcSym.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/flashadcSym.sch
+.subckt flashadcSym VDD vbias vin GND A B C
+*.PININFO VDD:B GND:B vbias:I vin:I B:O A:O C:O
+x9 VDD vin ref1 D1 vbias GND Opamp
+x10 VDD vin ref2 D2 vbias GND Opamp
+x11 VDD vin ref3 D3 vbias GND Opamp
+x12 VDD vin ref4 D4 vbias GND Opamp
+x13 VDD vin ref5 D5 vbias GND Opamp
+x14 VDD vin ref6 D6 vbias GND Opamp
+x15 VDD vin ref7 D7 vbias GND Opamp
+x4 VDD net2 D4 GND inv
+x16 VDD net2 D2 net3 GND NAND
+x1 VDD net4 net3 B GND NAND
+x3 VDD net4 D6 GND inv
+x6 VDD net5 D2 GND inv
+x17 VDD net7 D7 GND inv
+x18 VDD net8 D4 GND inv
+x20 VDD net9 D6 GND inv
+x7 VDD net5 D1 net6 GND NAND
+x19 VDD net9 D5 net10 GND NAND
+x21 VDD net8 D3 net11 GND NAND
+x8 VDD net7 net6 C2 GND NAND
+x22 VDD net10 net11 C1 GND NAND
+x23 VDD net12 C2 GND inv
+x24 VDD net13 C1 GND inv
+x25 VDD net13 net12 A GND NAND
+x2 VDD net14 D4 GND inv
+x5 VDD C net14 GND inv
+RR1 ref1 GND 113.176470588235 $SUB=GND $[rppd] w=0.5e-6 l=4e-6 b=0 m=1
+RR8 ref2 ref1 174.352941176471 $SUB=GND $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+RR7 ref3 ref2 174.352941176471 $SUB=GND $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+RR6 ref4 ref3 174.352941176471 $SUB=GND $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+RR5 ref5 ref4 174.352941176471 $SUB=GND $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+RR4 ref6 ref5 174.352941176471 $SUB=GND $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+RR3 ref7 ref6 174.352941176471 $SUB=GND $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+RR2 VDD net1 174.352941176471 $SUB=GND $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+RR9 net1 ref7 174.352941176471 $SUB=GND $[rppd] w=0.5e-6 l=2e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  cont3.sym # of pins=6
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/cont3.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/cont3.sch
+.subckt cont3 VDD B A C CLK VSS
+*.PININFO B:O CLK:B VDD:B VSS:B C:O A:O
+x1 CLK net1 VDD A net1 VSS flipflopn
+x2 A net2 VDD B net2 VSS flipflopn
+x3 B net3 VDD C net3 VSS flipflopn
+.ends
+
+
+* expanding   symbol:  3bitcomparator.sym # of pins=9
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/3bitcomparator.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/3bitcomparator.sch
+.subckt 3bitcomparator B2 PWM A2 B1 A1 B0 A0 VDD VSS
+*.PININFO VDD:B VSS:B A2:I B2:I A1:I B1:I A0:I B0:I PWM:O
+x28 VDD net1 B2 net6 VSS NAND
+x29 VDD net1 A2 VSS inv
+x3 VDD net2 B1 net3 VSS NAND
+x6 VDD net2 A1 VSS inv
+x9 VDD net10 net11 net4 VSS NAND
+x11 VDD net11 net3 VSS inv
+x12 VDD B2 A2 net5 VSS NAND
+x4 VDD net5 A2 net7 VSS NAND
+x5 VDD net5 B2 net8 VSS NAND
+x15 VDD net8 net7 net9 VSS NAND
+x21 VDD net10 net9 VSS inv
+x2 VDD net12 B0 net13 VSS NAND
+x7 VDD net12 A0 VSS inv
+x8 VDD net18 net19 net20 VSS NAND
+x10 VDD net19 net13 VSS inv
+x13 VDD B1 A1 net14 VSS NAND
+x14 VDD net14 A1 net15 VSS NAND
+x16 VDD net14 B1 net16 VSS NAND
+x17 VDD net16 net15 net17 VSS NAND
+x18 VDD net18 net17 VSS inv
+x19 VDD net6 net4 net22 PWM VSS AND3
+x22 VDD net21 net20 VSS inv
+x23 VDD net21 net10 net22 VSS NAND
+.ends
+
+
+* expanding   symbol:  sg13g2_LevelDown_noptap.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_LevelDown_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_LevelDown_noptap.sch
+.subckt sg13g2_LevelDown_noptap iovdd iovss pad core vdd vss !
+*.PININFO iovdd:B vss:B core:B pad:B vdd:B iovss:B !:B
+MM5 net2 net1 vdd vdd sg13_hv_pmos w=4.65u l=0.45u ng=1 m=1
+MM6 net2 net1 vss ! sg13_hv_nmos w=2.65u l=0.45u ng=1 m=1
+MM7 core net2 vss ! sg13_lv_nmos w=2.75u l=0.13u ng=1 m=1
+MM8 core net2 vdd vdd sg13_lv_pmos w=4.75u l=0.13u ng=1 m=1
+x1 net1 iovdd iovss pad ! sg13g2_SecondaryProtection_noptap
+.ends
+
+
+* expanding   symbol:  sg13g2_DCPDiode_noptap.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_DCPDiode_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_DCPDiode_noptap.sch
+.subckt sg13g2_DCPDiode_noptap cathode guard anode1 anode2 sub
+*.PININFO anode2:B cathode:B guard:B anode1:B sub:B
+DD1 anode1 cathode dpantenna l=27.78u w=1.26u
+DD2 anode2 cathode dpantenna l=27.78u w=1.26u
+.ends
+
+
+* expanding   symbol:  sg13g2_DCNDiode.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_DCNDiode.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_DCNDiode.sch
+.subckt sg13g2_DCNDiode cathode1 anode cathode2 guard sub
+*.PININFO cathode2:B guard:B anode:B cathode1:B sub:B
+R1 anode sub ptap1 A=141.2964p P=221.76u
+DD1 sub cathode1 dantenna l=27.78u w=1.26u
+* noconn guard
+DD2 sub cathode2 dantenna l=27.78u w=1.26u
+.ends
+
+
+* expanding   symbol:  sg13g2_Clamp_N43N43D4R.sym # of pins=4
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N43N43D4R.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N43N43D4R.sch
+.subckt sg13g2_Clamp_N43N43D4R iovss pad[21] pad[20] pad[19] pad[18] pad[17] pad[16] pad[15] pad[14] pad[13] pad[12] pad[11]
++ pad[10] pad[9] pad[8] pad[7] pad[6] pad[5] pad[4] pad[3] pad[2] pad[1] pad[0] sub gate
+*.PININFO iovss:B pad[21:0]:B sub:B gate:B
+R1 iovss sub ptap1 A=65.6472p P=386.16u
+MM1 pad[11] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM2 pad[12] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM3 pad[13] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM4 pad[14] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM5 pad[15] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM6 pad[16] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM7 pad[17] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM8 pad[18] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM9 pad[19] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM10 pad[20] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM11 pad[21] gate iovss sub sg13_hv_nmos w=17.6u l=0.6u ng=4 m=1
+DD1 sub gate dantenna l=0.48u w=0.48u
+MM12 pad[0] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM13 pad[1] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM14 pad[2] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM15 pad[3] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM16 pad[4] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM17 pad[5] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM18 pad[6] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM19 pad[7] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM20 pad[8] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM21 pad[9] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+MM22 pad[10] gate iovss sub sg13_hv_nmos w=35.2u l=0.6u ng=8 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_RCClampResistor.sym # of pins=3
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_RCClampResistor.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_RCClampResistor.sch
+.subckt sg13g2_RCClampResistor p1 p2 !
+*.PININFO p1:B p2:B !:B
+RR1 p1 p2 $SUB=sub! $[rppd] w=1e-6 l=520e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_RCClampInverter_noptap.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_RCClampInverter_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_RCClampInverter_noptap.sch
+.subckt sg13g2_RCClampInverter_noptap supply iovss in out sub
+*.PININFO supply:B iovss:B out:B in:B sub:B
+MM1 iovss in iovss sub sg13_hv_nmos w=126u l=9.5u ng=14 m=1
+MM2 out in iovss sub sg13_hv_nmos w=108u l=0.5u ng=12 m=1
+MM3 out in supply supply sg13_hv_pmos w=350u l=0.5u ng=50 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_Clamp_P20N0D_noptap.sym # of pins=4
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_P20N0D_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_P20N0D_noptap.sch
+.subckt sg13g2_Clamp_P20N0D_noptap ! iovss pad[9] pad[8] pad[7] pad[6] pad[5] pad[4] pad[3] pad[2] pad[1] pad[0] sub
+*.PININFO iovss:B !:B pad[9:0]:B sub:B
+MM1 pad[0] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM2 pad[1] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM3 pad[2] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM4 pad[3] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM5 pad[4] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM6 pad[5] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM7 pad[6] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM8 pad[7] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM9 pad[8] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+MM10 pad[9] net1 ! ! sg13_hv_pmos w=26.64u l=0.6u ng=4 m=1
+RR1 ! net1 $SUB=sub! $[rppd] w=0.5e-6 l=12.9e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_Clamp_N20N0D.sym # of pins=3
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N20N0D.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N20N0D.sch
+.subckt sg13g2_Clamp_N20N0D iovss pad[9] pad[8] pad[7] pad[6] pad[5] pad[4] pad[3] pad[2] pad[1] pad[0] !
+*.PININFO iovss:B pad[9:0]:B !:B
+R1 iovss ! ptap1 A=55.7736p P=328.08u
+MM1 pad[0] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM2 pad[1] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM3 pad[2] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM4 pad[3] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM5 pad[4] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM6 pad[5] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM7 pad[6] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM8 pad[7] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM9 pad[8] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+MM10 pad[9] net1 iovss ! sg13_hv_nmos w=8.8u l=0.6u ng=2 m=1
+RR3 net1 iovss $SUB=sub! $[rppd] w=0.5e-6 l=3.54e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_SecondaryProtection.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_SecondaryProtection.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_SecondaryProtection.sch
+.subckt sg13g2_SecondaryProtection core iovdd iovss pad !
+*.PININFO iovss:B core:B pad:B iovdd:B !:B
+R1 iovss ! ptap1 A=9.0304p P=53.12u
+DD1 core iovdd dpantenna l=4.98u w=0.64u
+DD2 ! core dantenna l=3.1u w=0.64u
+RR3 pad core $SUB=sub! $[rppd] w=1e-6 l=2e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_GateLevelUpInv_noptap.sym # of pins=7
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_GateLevelUpInv_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_GateLevelUpInv_noptap.sch
+.subckt sg13g2_GateLevelUpInv_noptap iovdd vss core pgate vdd sub ngate
+*.PININFO iovdd:B vss:B pgate:B core:B vdd:B sub:B ngate:B
+x1 iovdd vss core pgate vdd sub sg13g2_LevelUpInv_noptap
+x2 iovdd vss core ngate vdd sub sg13g2_LevelUpInv_noptap
+.ends
+
+
+* expanding   symbol:  sg13g2_Clamp_N2N2D.sym # of pins=4
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N2N2D.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_N2N2D.sch
+.subckt sg13g2_Clamp_N2N2D gate pad iovss sub
+*.PININFO iovss:B gate:B pad:B sub:B
+R1 iovss sub ptap1 A=55.7736p P=328.08u
+DD1 sub gate dantenna l=0.78u w=0.78u
+MM1 pad gate iovss sub sg13_hv_nmos w=4.4u l=0.6u ng=1 m=1
+MM2 iovss gate pad sub sg13_hv_nmos w=4.4u l=0.6u ng=1 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_Clamp_P2N2D_noptap.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_P2N2D_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_Clamp_P2N2D_noptap.sch
+.subckt sg13g2_Clamp_P2N2D_noptap gate iovdd iovss pad sub
+*.PININFO iovss:B gate:B pad:B iovdd:B sub:B
+MM1 pad gate iovdd iovdd sg13_hv_pmos w=13.32u l=0.6u ng=2 m=1
+MM2 iovdd gate pad iovdd sg13_hv_pmos w=13.32u l=0.6u ng=2 m=1
+DD1 gate iovdd dpantenna l=0.48u w=0.48u
+.ends
+
+
+* expanding   symbol:  NOR.sym # of pins=5
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/NOR.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/NOR.sch
+.subckt NOR VDD B A Y VSS
+*.PININFO Y:O A:I VDD:B VSS:B B:I
+MMN0 Y A VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP0 net1 B VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+MMP1 Y A net1 VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+MMN1 Y B VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+.ends
+
+
+* expanding   symbol:  NAND.sym # of pins=5
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/NAND.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/NAND.sch
+.subckt NAND VDD B A Y VSS
+*.PININFO Y:O A:I VDD:B VSS:B B:I
+MMN0 Y A net1 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP0 Y A VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+MMP1 Y B VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+MMN1 net1 B VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+.ends
+
+
+* expanding   symbol:  OTA_Telescopic_currentRef.sym # of pins=6
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_currentRef.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_currentRef.sch
+.subckt OTA_Telescopic_currentRef VDD I_P I_N VSS I_P2 I_P3
+*.PININFO VDD:B VSS:B I_P:B I_N:B I_P2:B I_P3:B
+MM3 net2 net2 VDD VDD sg13_lv_pmos w=12u l=2.5u ng=2 m=1
+MM2 net2 net1 net3 VSS sg13_lv_nmos w=12u l=6.4u ng=2 m=8
+MM4 net1 net2 VDD VDD sg13_lv_pmos w=12u l=2.5u ng=2 m=1
+MM1 net1 net1 VSS VSS sg13_lv_nmos w=12u l=6.4u ng=2 m=1
+MM5 net2 net2 net1 VSS sg13_lv_nmos w=2u l=1u ng=1 m=1
+RR2 net3 VSS -120.75 $SUB=VSS $[rppd] w=1e-6 l=11.5e-6 b=0 m=1
+MM6 I_P net2 VDD VDD sg13_lv_pmos w=12u l=2.5u ng=2 m=1
+MM7 I_N net1 VSS VSS sg13_lv_nmos w=12u l=6.4u ng=2 m=1
+MM8 I_P2 net2 VDD VDD sg13_lv_pmos w=12u l=2.5u ng=2 m=1
+MM9 I_P3 net2 VDD VDD sg13_lv_pmos w=12u l=2.5u ng=2 m=1
+.ends
+
+
+* expanding   symbol:  OTA_Telescopic_CMFB.sym # of pins=7
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_CMFB.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_CMFB.sch
+.subckt OTA_Telescopic_CMFB VDD VREF VINN VINP IBIAS CMFB VSS
+*.PININFO VDD:B VSS:B CMFB:O VREF:I IBIAS:B VINP:I VINN:I
+MM0 IBIAS IBIAS VDD VDD sg13_lv_pmos w=6u l=0.7u ng=6 m=8
+MM1 V1 IBIAS VDD VDD sg13_lv_pmos w=6u l=0.7u ng=6 m=24
+MM2 V2 IBIAS VDD VDD sg13_lv_pmos w=6u l=0.7u ng=6 m=24
+MM3 CMFB VINP V1 VDD sg13_lv_pmos w=8.995u l=0.35u ng=7 m=4
+MM4 net1 VREF V1 VDD sg13_lv_pmos w=8.995u l=0.35u ng=7 m=4
+MM5 net1 VREF V2 VDD sg13_lv_pmos w=8.995u l=0.35u ng=7 m=4
+MM6 CMFB VINN V2 VDD sg13_lv_pmos w=8.995u l=0.35u ng=7 m=4
+MM7 net1 net1 VSS VSS sg13_lv_nmos w=29.97u l=0.20u ng=9 m=1
+MM8 CMFB CMFB VSS VSS sg13_lv_nmos w=29.97u l=0.20u ng=9 m=1
+.ends
+
+
+* expanding   symbol:  OTA_Telescopic_FB.sym # of pins=12
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_FB.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_FB.sch
+.subckt OTA_Telescopic_FB IB VPout VP VPin VOUTP VDD VOUTN VSS VNin VNout VN CMFBin
+*.PININFO VP:I VN:I VOUTP:O VOUTN:O VPin:I VNin:I VPout:O VNout:O VDD:B VSS:B CMFBin:I IB:I
+x1 VDD CMFBin VOUTN VOUTP VPin VNin VSS IB OTA_Telescopic_core
+RR3 VNout VN 31.4047619047619 $SUB=VSS $[rppd] w=0.6e-6 l=6.73e-6 b=0 m=1
+RR4 VP VPout 31.4047619047619 $SUB=VSS $[rppd] w=0.6e-6 l=6.73e-6 b=0 m=1
+RR5 VPout VOUTP -348.380952380952 $SUB=VSS $[rppd] w=0.6e-6 l=19e-6 b=0 m=1
+RR2 VNout VOUTN -348.380952380952 $SUB=VSS $[rppd] w=0.6e-6 l=19e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  Buffer.sym # of pins=5
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/Buffer.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/Buffer.sch
+.subckt Buffer VDD VOUT IB VIN VSS
+*.PININFO VDD:B VSS:B VIN:I VOUT:O IB:I
+MM5 net1 IB VSS VSS sg13_lv_nmos w=3u l=1u ng=1 m=3
+MM6 IB IB VSS VSS sg13_lv_nmos w=3u l=1u ng=1 m=1
+MM1 vm VIN net1 VSS sg13_lv_nmos w=10u l=0.5u ng=1 m=16
+MM2 vota VOUT net1 VSS sg13_lv_nmos w=10u l=0.5u ng=1 m=16
+MM3 vm vm VDD VDD sg13_lv_pmos w=10u l=1u ng=1 m=4
+MM4 vota vm VDD VDD sg13_lv_pmos w=10u l=1u ng=1 m=4
+MM7 VDD vota VOUT VSS sg13_lv_nmos w=10u l=0.15u ng=1 m=25
+MM8 VOUT IB VSS VSS sg13_lv_nmos w=3u l=1u ng=1 m=1
+.ends
+
+
+* expanding   symbol:  integrator.sym # of pins=6
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/integrator.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/integrator.sch
+.subckt integrator Vref VSS VDD RST Vctr VOUT
+*.PININFO VSS:I Vref:I Vctr:I VDD:I RST:I VOUT:O
+xIP0 VDD VctrPP P0 P1 Vctr VSS RST integrator_curstav_inv
+xIP1 VDD VctrPP P1 P2 Vctr VSS VSS integrator_curstav_inv
+xIP2 VDD VctrPP P2 P3 Vctr VSS RST integrator_curstav_inv
+xIP3 VDD VctrPP P3 P4 Vctr VSS VSS integrator_curstav_inv
+xIP4 VDD VctrPP P4 P0 Vctr VSS RST integrator_curstav_inv
+xPD0 VDD R1 VOUT P1 VSS integrator_phasedetector
+xPD1 VDD R2 VOUT P2 VSS integrator_phasedetector
+xPD2 VDD R3 VOUT P3 VSS integrator_phasedetector
+xPD3 VDD R4 VOUT P4 VSS integrator_phasedetector
+xPD4 VDD R0 VOUT P0 VSS integrator_phasedetector
+MM1 VctrPP Vctr VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MM3 VctrPP VctrPP VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM2 VctrPR VctrPR VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM4 VctrPR Vref VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+xIR0 VDD VctrPR R0 R1 Vref VSS RST integrator_curstav_inv
+xIR1 VDD VctrPR R1 R2 Vref VSS VSS integrator_curstav_inv
+xIR2 VDD VctrPR R2 R3 Vref VSS RST integrator_curstav_inv
+xIR3 VDD VctrPR R3 R4 Vref VSS VSS integrator_curstav_inv
+xIR4 VDD VctrPR R4 R0 Vref VSS RST integrator_curstav_inv
+.ends
+
+
+* expanding   symbol:  spike_generator.sym # of pins=6
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/spike_generator.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/spike_generator.sch
+.subckt spike_generator VDD Vcmp Vspk Vrst Ven VSS
+*.PININFO Vcmp:B Ven:B Vrst:B Vspk:B VDD:B VSS:B
+xEDGE Vcmp SPK_OUT VDD VSS edge_detector
+xBSPK VDD SPK_OUT Vspk VSS gate_buff_L0d13
+xBRST VDD net1 Vrst VSS gate_buff_L0d13
+xOR Ven VDD VSS net1 Vcmp gate_or
+.ends
+
+
+* expanding   symbol:  resistence_bank.sym # of pins=4
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/resistence_bank.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/resistence_bank.sch
+.subckt resistence_bank VDD MEM Vx VSS
+*.PININFO VDD:B Vx:B MEM:B VSS:B
+RRFB0 Vx net4 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RRFB1 net4 net3 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RRFB2 net3 net2 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RRFB3 net2 net1 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RRDMY1[7] VDD VDD 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RDMY1[6] VDD VDD 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RDMY1[5] VDD VDD 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RDMY1[4] VDD VDD 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RDMY1[3] VDD VDD 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RDMY1[2] VDD VDD 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RDMY1[1] VDD VDD 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RDMY1[0] VDD VDD 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RRFB6 net1 net5 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RRFB7 net5 net6 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RRFB8 net6 net7 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RRFB9 net7 MEM 223.301906412478 $SUB=VSS $[rhigh] w=0.5e-6 l=4e-6 b=0 m=1
+RRDMY2[7] VDD VDD 581.568804159445 $SUB=VSS $[rhigh] w=0.5e-6 l=0.96e-6 b=0 m=1
+RDMY2[6] VDD VDD 581.568804159445 $SUB=VSS $[rhigh] w=0.5e-6 l=0.96e-6 b=0 m=1
+RDMY2[5] VDD VDD 581.568804159445 $SUB=VSS $[rhigh] w=0.5e-6 l=0.96e-6 b=0 m=1
+RDMY2[4] VDD VDD 581.568804159445 $SUB=VSS $[rhigh] w=0.5e-6 l=0.96e-6 b=0 m=1
+RDMY2[3] VDD VDD 581.568804159445 $SUB=VSS $[rhigh] w=0.5e-6 l=0.96e-6 b=0 m=1
+RDMY2[2] VDD VDD 581.568804159445 $SUB=VSS $[rhigh] w=0.5e-6 l=0.96e-6 b=0 m=1
+RDMY2[1] VDD VDD 581.568804159445 $SUB=VSS $[rhigh] w=0.5e-6 l=0.96e-6 b=0 m=1
+RDMY2[0] VDD VDD 581.568804159445 $SUB=VSS $[rhigh] w=0.5e-6 l=0.96e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  threshold_comparator.sym # of pins=4
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/threshold_comparator.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/threshold_comparator.sch
+.subckt threshold_comparator VDD Vin Vout VSS
+*.PININFO VDD:B VSS:B Vin:I Vout:O
+MM2 Vx Vin VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=2
+MM1 Vx Vin VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=2
+MM3 Vout Vx VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=2
+MM4 Vout Vx VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=2
+.ends
+
+
+* expanding   symbol:  IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/RES.sym # of pins=2
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/RES.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__QDLL6501/QDLL6501-main/schematic/xschem/RES.sch
+.subckt RES ROUT RIN
+*.PININFO RIN:I ROUT:O
+RR13 net1 RIN -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR1 net2 net1 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR2 net3 net2 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR3 net4 net3 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR4 net5 net4 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR5 net6 net5 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR6 net7 net6 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR7 net8 net7 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR8 net9 net8 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR9 net10 net9 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR10 net11 net10 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+RR11 ROUT net11 -72 $SUB=VSS $[rppd] w=1e-6 l=10e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  flipflopn.sym # of pins=6
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/flipflopn.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/flipflopn.sch
+.subckt flipflopn CLK Q_n VDD Q D VSS
+*.PININFO D:I Q:O CLK:B VDD:B VSS:B Q_n:O
+MMN0 net1 net7 net2 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP0 net1 CLK net2 VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+MMN1 net2 CLK net3 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP1 net2 net7 net3 VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+x2 VDD net1 D VSS inv
+x3 VDD net4 net2 VSS inv
+x4 VDD net3 net4 VSS inv
+MMN2 net4 CLK net5 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP2 net4 net7 net5 VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+MMN3 net5 net7 net6 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP3 net5 CLK net6 VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+x5 VDD Q_n net5 VSS inv
+x6 VDD net6 Q_n VSS inv
+x8 VDD Q Q_n VSS inv
+x9 VDD net7 CLK VSS inv
+.ends
+
+
+* expanding   symbol:  AND3.sym # of pins=6
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/AND3.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC3593/OSC3593-main/schematic/xschem/AND3.sch
+.subckt AND3 VDD A B C Y VSS
+*.PININFO A:I VDD:B VSS:B B:I C:I Y:O
+MMN0 net1 B net2 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP0 net3 A VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+MMN1 net3 A net1 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMN2 net2 C VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP1 net3 B VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+MMP2 net3 C VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+MMN3 Y net3 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1
+MMP3 Y net3 VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_SecondaryProtection_noptap.sym # of pins=5
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_SecondaryProtection_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_SecondaryProtection_noptap.sch
+.subckt sg13g2_SecondaryProtection_noptap core iovdd iovss pad !
+*.PININFO iovss:B core:B pad:B iovdd:B !:B
+DD1 core iovdd dpantenna l=4.98u w=0.64u
+DD2 ! core dantenna l=3.1u w=0.64u
+RR1 core pad $SUB=sub! $[rppd] w=1e-6 l=2e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  sg13g2_LevelUpInv_noptap.sym # of pins=6
+** sym_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_LevelUpInv_noptap.sym
+** sch_path: /home/designer/designs/openpdk-libraries/ihp-sg13g2/sg13g2_io/xschem/sg13g2_LevelUpInv_noptap.sch
+.subckt sg13g2_LevelUpInv_noptap iovdd vss in out vdd sub
+*.PININFO iovdd:B vss:B out:B in:B vdd:B sub:B
+MM1 net1 in vss sub sg13_hv_nmos w=1.9u l=0.45u ng=1 m=1
+MM3 net1 net2 iovdd iovdd sg13_hv_pmos w=0.3u l=0.45u ng=1 m=1
+MM4 net2 net1 iovdd iovdd sg13_hv_pmos w=0.3u l=0.45u ng=1 m=1
+MM5 out net2 iovdd iovdd sg13_hv_pmos w=3.9u l=0.45u ng=1 m=1
+MM2 net2 net3 vss sub sg13_hv_nmos w=1.9u l=0.45u ng=1 m=1
+MM6 out net2 vss sub sg13_hv_nmos w=1.9u l=0.45u ng=1 m=1
+MM7 net3 in vss sub sg13_lv_nmos w=2.75u l=0.13u ng=1 m=1
+MM8 net3 in vdd vdd sg13_lv_pmos w=4.75u l=0.13u ng=1 m=1
+.ends
+
+
+* expanding   symbol:  OTA_Telescopic_core.sym # of pins=8
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_core.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OPA2251/OPA2251-main/schematic/xschem/OTA_Telescopic_core.sch
+.subckt OTA_Telescopic_core VDD CMFB VOUTP VOUTN VINP VINN VSS IB
+*.PININFO VDD:B VSS:B VINP:I VINN:I VOUTN:O VOUTP:O CMFB:I IB:B
+MM15 VB55 VB55 VDD VDD sg13_lv_pmos w=1.4u l=0.35u ng=1 m=8
+MM17 VB33 VB33 VDD VDD sg13_lv_pmos w=2.05u l=0.35u ng=1 m=1
+MM18 VB22 VB33 VDD VDD sg13_lv_pmos w=2.05u l=0.35u ng=1 m=1
+MM9 VOUTP Vo1 VDD VDD sg13_lv_pmos w=1.37u l=0.35u ng=1 m=250
+MM7 Vx1 VB55 VDD VDD sg13_lv_pmos w=7u l=0.7u ng=1 m=30
+MM5 Vo1 VB33 Vx1 VDD sg13_lv_pmos w=4.05u l=0.5u ng=1 m=30
+MM8 Vx2 VB55 VDD VDD sg13_lv_pmos w=7u l=0.7u ng=1 m=30
+MM6 Vo2 VB33 Vx2 VDD sg13_lv_pmos w=4.05u l=0.5u ng=1 m=30
+MM10 VOUTN Vo2 VDD VDD sg13_lv_pmos w=1.37u l=0.35u ng=1 m=250
+MM13 IB IB VSS VSS sg13_lv_nmos w=4.8u l=1.06u ng=1 m=1
+MM14 VB55 IB VSS VSS sg13_lv_nmos w=4.8u l=1.06u ng=1 m=1
+MM16 VB33 IB VSS VSS sg13_lv_nmos w=4.8u l=1.06u ng=1 m=1
+MM19 VB22 VB22 VSS VSS sg13_lv_nmos w=0.5u l=0.8u ng=1 m=1
+MM11 VOUTP IB VSS VSS sg13_lv_nmos w=4.8u l=1.06u ng=1 m=55
+MM0 P CMFB VSS VSS sg13_lv_nmos w=29.97u l=0.20u ng=9 m=6
+MM3 Vo1 VB22 Vy1 VSS sg13_lv_nmos w=1.9u l=0.16u ng=1 m=30
+MM1 Vy1 VINP P VSS sg13_lv_nmos w=1.1u l=0.15u ng=1 m=30
+MM4 Vo2 VB22 Vy2 VSS sg13_lv_nmos w=1.9u l=0.16u ng=1 m=30
+MM2 Vy2 VINN P VSS sg13_lv_nmos w=1.1u l=0.15u ng=1 m=30
+MM12 VOUTN IB VSS VSS sg13_lv_nmos w=4.8u l=1.06u ng=1 m=55
+RR3 Vo1 net1 248.933333333333 $SUB=VSS $[rppd] w=1.5e-6 l=0.55e-6 b=0 m=1
+RR1 net2 Vo2 248.933333333333 $SUB=VSS $[rppd] w=1.5e-6 l=0.55e-6 b=0 m=1
+CC3 net2 VOUTN cap_cmim w=21.4e-6 l=21.4e-6 m=1
+CC1 net1 VOUTP cap_cmim w=21.4e-6 l=21.4e-6 m=1
+.ends
+
+
+* expanding   symbol:  integrator_curstav_inv.sym # of pins=7
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/integrator_curstav_inv.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/integrator_curstav_inv.sch
+.subckt integrator_curstav_inv VDD VcrtP A B VcrtN VSS RST
+*.PININFO VDD:I VSS:I A:I B:O VcrtP:I VcrtN:I RST:I
+MM1 B A net2 VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MM2 net2 VcrtN VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MM3 B A net1 VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM4 net1 VcrtP VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM5 B VDD VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM6 B RST VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+.ends
+
+
+* expanding   symbol:  integrator_phasedetector.sym # of pins=5
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/integrator_phasedetector.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/integrator_phasedetector.sch
+.subckt integrator_phasedetector VDD A VOUT B VSS
+*.PININFO A:I B:I VSS:I VDD:I VOUT:O
+x1 VDD XOR B A VSS gate_xor
+x2 VDD XOR BUF VSS gate_buff_L0d13
+RRXOR[1] BUF VOUT 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RXOR[0] BUF VOUT 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RRDMY[9] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RDMY[8] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RDMY[7] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RDMY[6] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RDMY[5] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RDMY[4] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RDMY[3] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RDMY[2] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RDMY[1] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+RDMY[0] VDD VDD 220.235294117647 $SUB=VSS $[rppd] w=0.5e-6 l=0.5e-6 b=0 m=1
+.ends
+
+
+* expanding   symbol:  edge_detector.sym # of pins=4
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/edge_detector.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/edge_detector.sch
+.subckt edge_detector IN OUT VDD VSS
+*.PININFO VDD:B VSS:B IN:I OUT:O
+xAND IN VDD VSS OUT I4 gate_and
+xINV0 VDD I0 IN VSS gate_inv_L0d65
+xINV1 VDD I1 I0 VSS gate_inv_L0d65
+xINV2 VDD I2 I1 VSS gate_inv_L0d65
+xINV3 VDD I3 I2 VSS gate_inv_L0d65
+xINV4 VDD I4 I3 VSS gate_inv_L0d65
+.ends
+
+
+* expanding   symbol:  gate_buff_L0d13.sym # of pins=4
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_buff_L0d13.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_buff_L0d13.sch
+.subckt gate_buff_L0d13 VDD VIN VOUT VSS
+*.PININFO VDD:I VIN:I VSS:I VOUT:O
+MM1 net1 VIN VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MM2 net1 VIN VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM3 VOUT net1 VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=3
+MM4 VOUT net1 VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=3
+.ends
+
+
+* expanding   symbol:  gate_or.sym # of pins=5
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_or.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_or.sch
+.subckt gate_or B VDD VSS OUT A
+*.PININFO OUT:O A:I VDD:B VSS:B B:I
+MMNB OUTN B VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MMNA OUTN A VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MMPA X A VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MMPB OUTN B X VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MMNI OUT OUTN VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MMPI OUT OUTN VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+.ends
+
+
+* expanding   symbol:  gate_xor.sym # of pins=5
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_xor.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_xor.sch
+.subckt gate_xor VDD S B A VSS
+*.PININFO VSS:I B:I A:I VDD:I S:O
+MM2 net1 A VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM1 S -B net1 VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM4 net2 -A VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM5 S B net2 VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM6 S B net4 VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MM3 net4 A VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MM7 S -B net3 VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+MM8 net3 -A VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+x3 VDD A -A VSS gate_inv_L0d13
+x1 VDD B -B VSS gate_inv_L0d13
+.ends
+
+
+* expanding   symbol:  gate_and.sym # of pins=5
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_and.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_and.sch
+.subckt gate_and B VDD VSS OUT A
+*.PININFO OUT:O A:I VDD:B VSS:B B:I
+MMNB OUTN B NX VSS sg13_lv_nmos w=1u l=0.13u ng=1 m=1
+MMNA NX A VSS VSS sg13_lv_nmos w=1u l=0.13u ng=1 m=1
+MMPB OUTN B VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MMPA OUTN A VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MMNI OUT OUTN VSS VSS sg13_lv_nmos w=1u l=0.13u ng=1 m=1
+MMPI OUT OUTN VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+.ends
+
+
+* expanding   symbol:  gate_inv_L0d65.sym # of pins=4
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_inv_L0d65.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_inv_L0d65.sch
+.subckt gate_inv_L0d65 VDD B A VSS
+*.PININFO B:O A:I VDD:B VSS:B
+MMN B A VSS VSS sg13_lv_nmos w=1u l=0.65u ng=1 m=1
+MMP B A VDD VDD sg13_lv_pmos w=2u l=0.65u ng=1 m=1
+.ends
+
+
+* expanding   symbol:  gate_inv_L0d13.sym # of pins=4
+** sym_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_inv_L0d13.sym
+** sch_path: /home/designer/designs/libs/IHP__MPC0349/dependencies/IHP__OSC9996/OSC9996-main/schematic/xschem/gate_inv_L0d13.sch
+.subckt gate_inv_L0d13 VDD VIN VOUT VSS
+*.PININFO VDD:I VSS:I VIN:I VOUT:O
+MM2 VOUT VIN VDD VDD sg13_lv_pmos w=2u l=0.13u ng=1 m=1
+MM1 VOUT VIN VSS VSS sg13_lv_nmos w=1.0u l=0.13u ng=1 m=1
+.ends
+
