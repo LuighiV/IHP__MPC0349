@@ -534,7 +534,7 @@ N 2580 -820 2580 -660 {lab=IOVSS3}
 N 2520 -930 2520 -770 {lab=VSS3}
 N 2560 -860 2560 -700 {lab=IOVDD3}
 N 2540 -880 2540 -720 {lab=VDD3}
-N 2460 -1080 2660 -1080 {lab=#net6}
+N 2460 -1080 2660 -1080 {lab=analog_io_padres[20]}
 N 2660 -990 2800 -990 {lab=analog_io[20]}
 N 2700 -1030 2720 -1030 {lab=IOVSS3}
 N 2720 -1030 2720 -980 {lab=IOVSS3}
@@ -551,7 +551,7 @@ N 2580 -980 2580 -820 {lab=IOVSS3}
 N 2520 -1090 2520 -930 {lab=VSS3}
 N 2560 -1020 2560 -860 {lab=IOVDD3}
 N 2540 -1040 2540 -880 {lab=VDD3}
-N 2460 -1240 2660 -1240 {lab=#net7}
+N 2460 -1240 2660 -1240 {lab=analog_io_padres[21]}
 N 2660 -1150 2800 -1150 {lab=analog_io[21]}
 N 2700 -1190 2720 -1190 {lab=IOVSS3}
 N 2720 -1190 2720 -1140 {lab=IOVSS3}
@@ -585,7 +585,7 @@ N 2580 -1300 2580 -1140 {lab=IOVSS3}
 N 2520 -1410 2520 -1250 {lab=VSS3}
 N 2560 -1340 2560 -1180 {lab=IOVDD3}
 N 2540 -1360 2540 -1200 {lab=VDD3}
-N 2460 -1560 2660 -1560 {lab=#net8}
+N 2460 -1560 2660 -1560 {lab=analog_io_padres[23]}
 N 2660 -1470 2800 -1470 {lab=analog_io[23]}
 N 2700 -1510 2720 -1510 {lab=IOVSS3}
 N 2720 -1510 2720 -1460 {lab=IOVSS3}
@@ -602,7 +602,7 @@ N 2580 -1460 2580 -1300 {lab=IOVSS3}
 N 2520 -1570 2520 -1410 {lab=VSS3}
 N 2560 -1500 2560 -1340 {lab=IOVDD3}
 N 2540 -1520 2540 -1360 {lab=VDD3}
-N 2460 -1720 2660 -1720 {lab=#net9}
+N 2460 -1720 2660 -1720 {lab=analog_io_padres[24]}
 N 2660 -1630 2800 -1630 {lab=analog_io[24]}
 N 2700 -1670 2720 -1670 {lab=IOVSS3}
 N 2720 -1670 2720 -1620 {lab=IOVSS3}
@@ -634,7 +634,7 @@ N 2540 -1840 2620 -1840 {lab=VDD3}
 N 2580 -1780 2580 -1620 {lab=IOVSS3}
 N 2520 -1890 2520 -1730 {lab=VSS3}
 N 2540 -1840 2540 -1680 {lab=VDD3}
-N 2460 -2040 2660 -2040 {lab=#net10}
+N 2460 -2040 2660 -2040 {lab=#net6}
 N 2660 -1950 2800 -1950 {lab=analog_io[26]}
 N 2700 -1990 2720 -1990 {lab=IOVSS3}
 N 2720 -1990 2720 -1940 {lab=IOVSS3}
@@ -746,7 +746,7 @@ N 660 -2400 770 -2400 {lab=VSS4}
 N 700 -2440 840 -2440 {lab=IOVDD4}
 N 720 -2460 880 -2460 {lab=IOVSS4}
 N 710 -2600 720 -2600 {lab=IOVSS4}
-N 2060 -2540 2060 -2340 {lab=#net11}
+N 2060 -2540 2060 -2340 {lab=#net7}
 N 2150 -2680 2150 -2540 {lab=analog_io[35]}
 N 2110 -2600 2110 -2580 {lab=IOVSS4}
 N 2110 -2600 2160 -2600 {lab=IOVSS4}
@@ -797,7 +797,7 @@ N 1840 -2460 2000 -2460 {lab=IOVSS4}
 N 1730 -2400 1890 -2400 {lab=VSS4}
 N 1800 -2440 1960 -2440 {lab=IOVDD4}
 N 1780 -2420 1940 -2420 {lab=VDD4}
-N 1580 -2540 1580 -2340 {lab=#net12}
+N 1580 -2540 1580 -2340 {lab=#net8}
 N 1670 -2680 1670 -2540 {lab=analog_io[32]}
 N 1630 -2600 1630 -2580 {lab=IOVSS4}
 N 1630 -2600 1680 -2600 {lab=IOVSS4}
@@ -830,7 +830,7 @@ N 1520 -2460 1680 -2460 {lab=IOVSS4}
 N 1410 -2400 1570 -2400 {lab=VSS4}
 N 1480 -2440 1640 -2440 {lab=IOVDD4}
 N 1460 -2420 1620 -2420 {lab=VDD4}
-N 1260 -2540 1260 -2340 {lab=#net13}
+N 1260 -2540 1260 -2340 {lab=#net9}
 N 1350 -2680 1350 -2540 {lab=analog_io[30]}
 N 1310 -2600 1310 -2580 {lab=IOVSS4}
 N 1310 -2600 1360 -2600 {lab=IOVSS4}
@@ -879,7 +879,7 @@ N 980 -2500 980 -2420 {lab=VDD4}
 N 1040 -2460 1200 -2460 {lab=IOVSS4}
 N 930 -2400 1090 -2400 {lab=VSS4}
 N 980 -2420 1140 -2420 {lab=VDD4}
-N 780 -2540 780 -2340 {lab=#net14}
+N 780 -2540 780 -2340 {lab=#net10}
 N 870 -2680 870 -2540 {lab=analog_io[27]}
 N 830 -2600 830 -2580 {lab=IOVSS4}
 N 830 -2600 880 -2600 {lab=IOVSS4}
@@ -1013,7 +1013,7 @@ N 320 -1990 340 -1990 {lab=IOVDD1}
 N 340 -2000 340 -1990 {lab=IOVDD1}
 N 340 -2000 380 -2000 {lab=IOVDD1}
 N 400 -2120 400 -1980 {lab=VDD1}
-N 280 -1780 480 -1780 {lab=#net15}
+N 280 -1780 480 -1780 {lab=#net11}
 N 140 -1870 280 -1870 {lab=analog_io[7]}
 N 220 -1830 240 -1830 {lab=IOVSS1}
 N 220 -1880 220 -1830 {lab=IOVSS1}
@@ -1064,7 +1064,7 @@ N 360 -1720 360 -1560 {lab=IOVSS1}
 N 420 -1610 420 -1450 {lab=VSS1}
 N 380 -1680 380 -1520 {lab=IOVDD1}
 N 400 -1660 400 -1500 {lab=VDD1}
-N 280 -1300 480 -1300 {lab=#net16}
+N 280 -1300 480 -1300 {lab=#net12}
 N 140 -1390 280 -1390 {lab=analog_io[4]}
 N 220 -1350 240 -1350 {lab=IOVSS1}
 N 220 -1400 220 -1350 {lab=IOVSS1}
@@ -1647,10 +1647,6 @@ C {lab_pin.sym} 2800 -990 2 0 {name=p32 sig_type=std_logic lab=analog_io[20]}
 C {lab_pin.sym} 2800 -830 2 0 {name=p33 sig_type=std_logic lab=analog_io[19]}
 C {lab_pin.sym} 2800 -670 2 0 {name=p34 sig_type=std_logic lab=analog_io[18]}
 C {noconn.sym} 2460 -760 3 0 {name=l10}
-C {noconn.sym} 2460 -1080 3 0 {name=l12}
-C {noconn.sym} 2460 -1240 3 0 {name=l13}
-C {noconn.sym} 2460 -1560 3 0 {name=l15}
-C {noconn.sym} 2460 -1720 3 0 {name=l16}
 C {noconn.sym} 2460 -2040 3 0 {name=l18}
 C {noconn.sym} 2740 -20 3 0 {name=l23}
 C {lab_pin.sym} 60 -80 0 0 {name=p5 sig_type=std_logic lab=SUB}
@@ -1742,8 +1738,8 @@ C {iopin.sym} 420 -2680 1 1 {name=p64 lab=VSS4}
 C {iopin.sym} 400 -2680 1 1 {name=p65 lab=VDD4}
 C {iopin.sym} 380 -2680 1 1 {name=p66 lab=IOVDD4}
 C {iopin.sym} 360 -2680 1 1 {name=p67 lab=IOVSS4}
-C {iopin.sym} -420 380 2 0 {name=p68 lab=analog_io_padres[28]}
-C {iopin.sym} -420 440 2 0 {name=p69 lab=analog_io_padres[33]}
+C {iopin.sym} -420 520 2 0 {name=p68 lab=analog_io_padres[28]}
+C {iopin.sym} -420 580 2 0 {name=p69 lab=analog_io_padres[33]}
 C {iopin.sym} -680 160 2 0 {name=p70 lab=ui_p2c[31]}
 C {lab_wire.sym} 940 -2340 3 0 {name=p71 sig_type=std_logic lab=analog_io_padres[28]	}
 C {lab_wire.sym} 1100 -2340 3 0 {name=p72 sig_type=std_logic lab=analog_io_padres[29]	}
@@ -1843,12 +1839,12 @@ C {lab_wire.sym} 2460 -1880 0 0 {name=p73 sig_type=std_logic lab=analog_io_padre
 C {lab_wire.sym} 2460 -1400 0 0 {name=p106 sig_type=std_logic lab=analog_io_padres[22]	}
 C {lab_wire.sym} 2460 -920 0 0 {name=p107 sig_type=std_logic lab=analog_io_padres[19]	}
 C {iopin.sym} -420 280 2 0 {name=p108 lab=analog_io_padres[19]}
-C {iopin.sym} -420 310 2 0 {name=p109 lab=analog_io_padres[22]}
-C {iopin.sym} -420 340 2 0 {name=p110 lab=analog_io_padres[25]}
+C {iopin.sym} -420 310 2 0 {name=p109 lab=analog_io_padres[20]}
+C {iopin.sym} -420 460 2 0 {name=p110 lab=analog_io_padres[25]}
 C {iopin.sym} -420 40 2 0 {name=p111 lab=analog_io_padres[1]}
 C {iopin.sym} -420 110 2 0 {name=p112 lab=analog_io_padres[6]}
-C {iopin.sym} -420 410 2 0 {name=p113 lab=analog_io_padres[29]}
-C {iopin.sym} -420 470 2 0 {name=p114 lab=analog_io_padres[34]}
+C {iopin.sym} -420 550 2 0 {name=p113 lab=analog_io_padres[29]}
+C {iopin.sym} -420 610 2 0 {name=p114 lab=analog_io_padres[34]}
 C {iopin.sym} -190 40 2 0 {name=p115 lab=analog_io[1]}
 C {iopin.sym} -190 100 2 0 {name=p116 lab=analog_io[5]}
 C {iopin.sym} -190 130 2 0 {name=p117 lab=analog_io[6]}
@@ -1884,3 +1880,12 @@ C {lab_wire.sym} 1040 -360 1 0 {name=p146 sig_type=std_logic lab=analog_io_padre
 C {lab_wire.sym} 1200 -360 1 0 {name=p147 sig_type=std_logic lab=analog_io_padres[11]	}
 C {lab_wire.sym} 1360 -360 1 0 {name=p148 sig_type=std_logic lab=analog_io_padres[12]	}
 C {lab_wire.sym} 2000 -360 1 0 {name=p149 sig_type=std_logic lab=analog_io_padres[16]	}
+C {iopin.sym} -420 340 2 0 {name=p150 lab=analog_io_padres[21]}
+C {iopin.sym} -420 370 2 0 {name=p151 lab=analog_io_padres[22]}
+C {iopin.sym} -420 400 2 0 {name=p152 lab=analog_io_padres[23]}
+C {iopin.sym} -420 430 2 0 {name=p153 lab=analog_io_padres[24]}
+C {lab_wire.sym} 2460 -1080 0 0 {name=p154 sig_type=std_logic lab=analog_io_padres[20]	}
+C {lab_wire.sym} 2460 -1240 0 0 {name=p155 sig_type=std_logic lab=analog_io_padres[21]	}
+C {lab_wire.sym} 2460 -1560 0 0 {name=p156 sig_type=std_logic lab=analog_io_padres[23]	}
+C {lab_wire.sym} 2460 -1720 0 0 {name=p157 sig_type=std_logic lab=analog_io_padres[24]	}
+C {iopin.sym} 60 -40 0 1 {name=p158 lab=SUB}
