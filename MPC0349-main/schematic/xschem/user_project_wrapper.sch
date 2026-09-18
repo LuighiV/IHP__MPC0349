@@ -1,8 +1,9 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 L 4 1230 430 1230 440 {}
 L 4 1230 440 1390 440 {}
@@ -1709,14 +1710,14 @@ model=ptap1
 spiceprefix=X
 w=3.632e-6
 l=3.632e-6
-lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.705u )"
+lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.704u )"
 }
 C {sg13g2_pr/ptap1.sym} 1260 350 0 0 {name=R1
 model=ptap1
 spiceprefix=X
 w=100.84e-6
 l=100.84e-6
-lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.42u )"
+lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.422u )"
 }
 C {iopin.sym} -190 200 2 0 {name=p48 lab=analog_io[10]}
 C {iopin.sym} -190 70 2 0 {name=p49 lab=analog_io[4]}
@@ -1776,14 +1777,14 @@ model=ptap1
 spiceprefix=X
 w=3.632e-6
 l=3.632e-6
-lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.705u )"
+lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.704u )"
 }
 C {sg13g2_pr/ptap1.sym} 1260 670 0 0 {name=R3
 model=ptap1
 spiceprefix=X
 w=100.84e-6
 l=100.84e-6
-lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.42u )"
+lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.422u )"
 }
 C {sg13g2_Filler4000.sym} 400 980 0 0 {name=x7[0]}
 C {sg13g2_Filler1000.sym} 520 980 0 0 {name=x8[2:0]}
@@ -1801,14 +1802,14 @@ model=ptap1
 spiceprefix=X
 w=3.632e-6
 l=3.632e-6
-lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.705u )"
+lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.704u )"
 }
 C {sg13g2_pr/ptap1.sym} 1260 990 0 0 {name=R6
 model=ptap1
 spiceprefix=X
 w=100.84e-6
 l=100.84e-6
-lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.42u )"
+lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.422u )"
 }
 C {sg13g2_Filler4000.sym} 400 1300 0 0 {name=x19[0]}
 C {sg13g2_Filler1000.sym} 520 1300 0 0 {name=x20[1:0]}
@@ -1826,14 +1827,14 @@ model=ptap1
 spiceprefix=X
 w=3.632e-6
 l=3.632e-6
-lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.705u )"
+lvs_format="tcleval(@name @pinlist @model A=13.1934p P=84.704u )"
 }
 C {sg13g2_pr/ptap1.sym} 1260 1310 0 0 {name=R8
 model=ptap1
 spiceprefix=X
 w=100.84e-6
 l=100.84e-6
-lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.42u )"
+lvs_format="tcleval(@name @pinlist @model A=10168.74p P=982.422u )"
 }
 C {lab_wire.sym} 2460 -1880 0 0 {name=p73 sig_type=std_logic lab=analog_io_padres[25]	}
 C {lab_wire.sym} 2460 -1400 0 0 {name=p106 sig_type=std_logic lab=analog_io_padres[22]	}
