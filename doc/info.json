@@ -5,12 +5,17 @@
   "unique_id": "0349",
   "license": "Apache-2.0",
   "trl": 0,
-  "sealring_x": 1.0,
-  "sealring_y": 1.0,
-  "repository": "",
-  "pdk_version": "",
-  "process": "SG13CMOS",
-  "dependencies": {},
+  "sealring_x": 2000.0,
+  "sealring_y": 2000.0,
+  "repository": "https://github.com/LuighiV/IHP__MPC0349",
+  "pdk_version": "dev",
+  "process": "SG13G2",
+  "dependencies": {
+    "OPA2251": "https://github.com/overjamaya/IHP__OPA2251",
+    "OSC3593": "https://github.com/EduHolg/IHP__OSC3593",
+    "OSC9996": "https://github.com/Gior-gio/IHP__OSC9996",
+    "QDLL6501": "https://github.com/Fundacion-Fulgor/IHP__QDLL6501"
+  },
   "tools": {},
   "top_cell_name": "MPC0349",
   "release": {
